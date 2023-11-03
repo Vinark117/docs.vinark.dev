@@ -22,7 +22,7 @@
     <link>https://docs.vinark.dev/Features/Custom-properties</link>
     <guid>https://docs.vinark.dev/Features/Custom-properties</guid>
     <description>Custom properties § Custom properties are a way to store information in your Tiles, that you can later access at runtime using a script. To add properties to your tiles, select a tile, and in the Tile inspector, scroll down to the Custom properties category.</description>
-    <pubDate>Fri, 03 Nov 2023 15:22:17 GMT</pubDate>
+    <pubDate>Fri, 03 Nov 2023 18:25:37 GMT</pubDate>
   </item><item>
     <title>Preset Blocks</title>
     <link>https://docs.vinark.dev/Features/Preset-block</link>
