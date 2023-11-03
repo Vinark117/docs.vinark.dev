@@ -3,14 +3,14 @@
 <p>The tile inspector is the place where you can change the settings of the <a href="../Getting-started/Tile" class="internal" data-slug="Getting-started/Tile">Tile</a>s you created in the <a href="../The-editor/Tile-drawer" class="internal" data-slug="The-editor/Tile-drawer">Tile drawer</a> window. To edit a tile’s settings, just select it from the tile drawer. After you selected the tile, the tile inspector window will automatically appear in the bottom left corner of the <a href="../Getting-started/Editor-window" class="internal" data-slug="Getting-started/Editor-window">Editor window</a>.</p>
 <p>The options in the tile inspector are divided into different categories. Some of the options are the same as in regular rule tiles, but there are also quite a few options which are specific to Better rule tiles.</p>
 <p>After you’re done changing the settings of the tile, you can click the <strong>Apply changes</strong> button to see the changes take effect. Alternatively you can also switch to another tile to see your changes take effect.</p>
-<p><img src="../_images/tile-inspector.png" width="auto" height="auto"/></p>
+<p><img src="../The-editor/images/tile-inspector.png" width="auto" height="auto"/></p>
 <h1 id="editor-options">Editor options<a aria-hidden="true" tabindex="-1" href="#editor-options" class="internal"> §</a></h1>
 <p>The settings present in this category change how the tile looks in the editor:</p>
 <ul>
 <li><strong>Tile name</strong> - The name of the tile in the editor, and after the tile has been exported.</li>
 <li><strong>Tile image</strong> - This option only affects how the tile looks in the editor. When leaving this empty, the tile will appear based on the settings in the <strong>Auto texture</strong> category. But if you want to add a custom preview image for your tile in the editor, you can add a texture here, and that’s how the tile will appear in the editor.</li>
 </ul>
-<p><img src="../_images/tile-editor-options.png" width="auto" height="auto"/></p>
+<p><img src="../The-editor/images/tile-editor-options.png" width="auto" height="auto"/></p>
 <h1 id="auto-texture">Auto texture<a aria-hidden="true" tabindex="-1" href="#auto-texture" class="internal"> §</a></h1>
 <p>If you haven’t specified a <strong>Tile image</strong> in the <strong>Editor options</strong> category, than you can change how the automatic preview texture looks by changing the parameters in this window:</p>
 <ul>
@@ -31,7 +31,7 @@
 <li><strong>Mirror X</strong> - Mirrors the shape horizontally.</li>
 <li><strong>Mirror y</strong> - Mirrors the shape vertically.</li>
 </ul>
-<p><img src="../_images/tile-auto-texture.png" width="auto" height="auto"/></p>
+<p><img src="../The-editor/images/tile-auto-texture.png" width="auto" height="auto"/></p>
 <h1 id="rile-tile-options">Rile tile options<a aria-hidden="true" tabindex="-1" href="#rile-tile-options" class="internal"> §</a></h1>
 <p>These settings change how the tile will behave when placed on the tilemap, if none of the <a href="../Getting-started/Tiling-rule" class="internal" data-slug="Getting-started/Tiling-rule">Tiling rule</a>s match the place where the tile is placed. Apart from the default sprite, these settings also affect how the placed tiling rules behave, unless they’re overridden in the <a href="../Tools/Grid-cell-inspector" class="internal" data-slug="Tools/Grid-cell-inspector">Grid cell inspector</a> or the <a href="../The-editor/Sprite-override-settings" class="internal" data-slug="The-editor/Sprite-override-settings">Sprite override settings</a>.</p>
 <ul>
@@ -39,14 +39,14 @@
 <li><strong>Default collider</strong> - The collider type of the tile when placed, same as a regular rule tile.</li>
 <li><strong>Default gameobject</strong> - Gameobject instantiated with the tile when placed.</li>
 </ul>
-<p><img src="../_images/tile-rule-tile-options.png" width="auto" height="auto"/></p>
+<p><img src="../The-editor/images/tile-rule-tile-options.png" width="auto" height="auto"/></p>
 <h1 id="tile-variation">Tile variation<a aria-hidden="true" tabindex="-1" href="#tile-variation" class="internal"> §</a></h1>
 <p>In the <strong>tile variations</strong> category, you can change whether that tile is unique or a variation of another tile. The default is unique, this is the default, and this way the tile will not be affected by other tiles. If the tile is not unique, it is a variation of another tile, which means it will fill all the missing <a href="../Getting-started/Tiling-rule" class="internal" data-slug="Getting-started/Tiling-rule">Tiling rule</a>s which are not present in this tile, but present in the tile you specified in the <strong>variation of</strong> field, and add those <a href="../Getting-started/Tiling-rule" class="internal" data-slug="Getting-started/Tiling-rule">Tiling rule</a>s to this tile.</p>
 <ul>
 <li><strong>Unique tile</strong> - Is this tile unique or a variation of another tile?</li>
 <li><strong>Variation of</strong> - The tile to fill in the missing <a href="../Getting-started/Tiling-rule" class="internal" data-slug="Getting-started/Tiling-rule">Tiling rule</a>s from.</li>
 </ul>
-<p><img src="../_images/tile-variation.png" width="auto" height="auto"/></p>
+<p><img src="../The-editor/images/tile-variation.png" width="auto" height="auto"/></p>
 <p>To see a specific example on how this feature works, look at the <a href="../Extras/Examples" class="internal" data-slug="Extras/Examples">Examples</a> provided with the package.</p>
 <blockquote class="callout" data-callout="note">
 <div class="callout-title">
@@ -59,13 +59,13 @@
 <h1 id="connections">Connections<a aria-hidden="true" tabindex="-1" href="#connections" class="internal"> §</a></h1>
 <p>The <strong>Connections</strong> or <strong>Connect to</strong> category provides you a way to make two separate tiles connect to each other in a simple way.</p>
 <p>To add a tile to this list just simply select the tile from the dropdown, than click the <strong>Add</strong> button to add it to the list. All tiles added to the list will appear under the category. To remove a tile, just simply click the <strong>X</strong> button next to it.</p>
-<p><img src="../_images/tile-connect-to.png" width="auto" height="auto"/></p>
+<p><img src="../The-editor/images/tile-connect-to.png" width="auto" height="auto"/></p>
 <p>When a tile #2 is added to <strong>tile #1’s connection</strong> list, #1 will treat #2 as if it was the same tile, so it’ll connect to it the same way it’d connect to itself. But this connection is not mutual, even tho #1 connects to #2, number #2 will still treat #1 as a different tile. If you want both of them to connect to each other, you also need to add tile #2 to <strong>tile #1’s connection</strong> list.</p>
 <p>To see this behaviour inside the tool, look at the <a href="../Extras/Examples" class="internal" data-slug="Extras/Examples">Examples</a> provided with the package.</p>
 <h1 id="custom-properties">Custom properties<a aria-hidden="true" tabindex="-1" href="#custom-properties" class="internal"> §</a></h1>
 <p><a href="../Features/Custom-properties" class="internal" data-slug="Features/Custom-properties">Custom properties</a> are a way to store information in tiles. This could be useful for a number of things, for example for storing how fast the player can walk on the tile.</p>
 <p>To add a property just simply click on the <strong>Add</strong> button. This will add a new property to the list, which you can change the name, the variable type, and the value. To remove a property just simply click on the <strong>X</strong> button next to it.</p>
-<p><img src="../_images/tile-custom-properties.png" width="auto" height="auto"/></p>
+<p><img src="../tile-custom-properties.png" width="auto" height="auto"/></p>
 <p>The properties you add here can be later accessed by scripts. Look at the <a href="../Features/Custom-properties" class="internal" data-slug="Features/Custom-properties">Custom properties</a> page to learn more, or look at the <a href="../Extras/Examples" class="internal" data-slug="Extras/Examples">Examples</a> provided with the package.</p></article></div><div class="right sidebar"><div class="graph "><h3>Graph View</h3><div class="graph-outer"><div id="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[]}"></div><svg version="1.1" id="global-graph-icon" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xmlSpace="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
 	s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
 	c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
@@ -126,7 +126,4 @@ window.addEventListener(`resize`, setupCallout);
               querySelector: '.mermaid'
             })
           });
-          </script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/copy-tex.min.js" type="application/javascript"></script><script type="application/javascript">
-          const socket = new WebSocket('ws://localhost:3001')
-          socket.addEventListener('message', () => document.location.reload())
-        </script><script src="../postscript.js" type="module"></script></html>
+          </script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/copy-tex.min.js" type="application/javascript"></script><script src="../postscript.js" type="module"></script></html>
