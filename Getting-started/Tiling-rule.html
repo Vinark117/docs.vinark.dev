@@ -35,7 +35,7 @@
 <p><img src="../Getting-started/images/specific-tiling-rules.png" width="auto" height="auto"/></p>
 <p>If drawing out more complete shapes is easier for you to create tiling rules, than there’s an option to simplify all those case specific rules into more generic rules.</p>
 <p>If you enable the <strong>Simplify similar rules</strong> option in the <a href="../The-editor/Export-options" class="internal" data-slug="The-editor/Export-options">Export options</a>, the tool will take care of creating those more generic tiling rules for you. The only downside of this option is that you’ll need enough <a href="../Getting-started/Tiling-rule" class="internal" data-slug="Getting-started/Tiling-rule">Tiling rule</a>s for the tool to simplify.</p>
-<p><img src="../simplify-rules.png" width="auto" height="auto"/></p>
+<p><img src="../The-editor/images/simplify-rules.png" width="auto" height="auto"/></p>
 <blockquote class="callout" data-callout="info">
 <div class="callout-title">
                   <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg></div>
@@ -47,7 +47,7 @@
 <h1 id="extended-tiling-rules">Extended tiling rules<a aria-hidden="true" tabindex="-1" href="#extended-tiling-rules" class="internal"> §</a></h1>
 <p>By default, the rule tile checks in a 3x3 area around it to look for matching tiles, but what if you have more complicated tiles that require a larger area?</p>
 <p>You can change this using the <a href="../Tools/Grid-cell-inspector" class="internal" data-slug="Tools/Grid-cell-inspector">Grid cell inspector</a> tool under the <code>Neighbor positions</code>. This small grid is similar how you’d set the rules in a regular rule tile, but here it only determines where the tiling rule will check for it’s neighbors. The actual rules are determined by the tiles you place on the <a href="../The-editor/Grid" class="internal" data-slug="The-editor/Grid">Grid</a>.</p>
-<p><img src="../grid-cell-inspector.png" width="auto" height="auto"/></p>
+<p><img src="../Getting-started/images/grid-cell-inspector.png" width="auto" height="auto"/></p>
 <p><a href="../Features/Preset-block" class="internal" data-slug="Features/Preset-block">Preset block</a>s use this feature to create larger structures. It just basically looks for all the neighbors that are part of the preset block, and if they’re in the right configuration, the rules will match.</p>
 <h1 id="interactions-between-tiles">Interactions between tiles<a aria-hidden="true" tabindex="-1" href="#interactions-between-tiles" class="internal"> §</a></h1>
 <p>Regular rule tiles don’t have the ability to connect to each other, unless you create a custom scripted rule tile. But Better Rule Tiles has this feature by default.</p>

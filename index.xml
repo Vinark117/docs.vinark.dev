@@ -64,7 +64,7 @@
     <link>https://docs.vinark.dev/Getting-started/Tiling-rule</link>
     <guid>https://docs.vinark.dev/Getting-started/Tiling-rule</guid>
     <description>Tiling rules § Tiling rules are what makes it possible for the rule tiles to work. When placing the tile on the tilemap, it’ll check all adjacent tiles, and look for a tiling rule that matches with the surroundings.</description>
-    <pubDate>Fri, 03 Nov 2023 15:22:17 GMT</pubDate>
+    <pubDate>Fri, 03 Nov 2023 18:09:25 GMT</pubDate>
   </item>
     </channel>
   </rss>
