@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>Better Rule Tiles</title>
+      <link>https://docs.vinark.dev</link>
+      <description>Last 10 notes on Better Rule Tiles</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>Examples</title>
+    <link>https://docs.vinark.dev/Extras/Examples</link>
+    <guid>https://docs.vinark.dev/Extras/Examples</guid>
+    <description>Examples § The package comes with a few examples to help you better understand the tool. All of the examples contain a Better rule tile container asset, a tilemap, a scene, and a little description to explain that example.</description>
+    <pubDate>Fri, 03 Nov 2023 15:22:17 GMT</pubDate>
+  </item><item>
+    <title>Shortcuts</title>
+    <link>https://docs.vinark.dev/Extras/Keyboard-shortcuts</link>
+    <guid>https://docs.vinark.dev/Extras/Keyboard-shortcuts</guid>
+    <description>Grid controls § Left Mouse Click - Use the selected tool on the Grid Right Mouse Click &amp; Drag - Move the Grid around Middle Mouse Click &amp; Drag - Move the Grid around Mouse Scroll - Zoom in the Grid Keyboard shortcuts § B - Select the Brush tool D - Select the Eraser tool E - Select the Tile inspector tool I - Select the Picker tool L - Lock selection M - Select the Move tool P - Create Preset block U - Unlock selection S - Select the Selection tool Delete - Delete the selected area CTRL + C - Copy selection CTRL + V - Paste selection CTRL + Z - Undo CTRL + Y - Redo .</description>
+    <pubDate>Fri, 03 Nov 2023 15:22:17 GMT</pubDate>
+  </item><item>
+    <title>Custom Properties</title>
+    <link>https://docs.vinark.dev/Features/Custom-properties</link>
+    <guid>https://docs.vinark.dev/Features/Custom-properties</guid>
+    <description>Custom properties § Custom properties are a way to store information in your Tiles, that you can later access at runtime using a script. To add properties to your tiles, select a tile, and in the Tile inspector, scroll down to the Custom properties category.</description>
+    <pubDate>Fri, 03 Nov 2023 15:22:17 GMT</pubDate>
+  </item><item>
+    <title>Preset Blocks</title>
+    <link>https://docs.vinark.dev/Features/Preset-block</link>
+    <guid>https://docs.vinark.dev/Features/Preset-block</guid>
+    <description>Preset blocks § Preset blocks provide a way to easily create multi-tile structures. When placing tiles to the tilemap in the same layout as a preset block, the preset block will be used as the output of the tile, instead of the other rules.</description>
+    <pubDate>Fri, 03 Nov 2023 15:22:17 GMT</pubDate>
+  </item><item>
+    <title>Container Asset</title>
+    <link>https://docs.vinark.dev/Getting-started/Better-rule-tile-container</link>
+    <guid>https://docs.vinark.dev/Getting-started/Better-rule-tile-container</guid>
+    <description>Better rule tile container § To start using the tool first you need to create a Better rule tile container asset. This asset is the core of the tool. Everything you do will be saved into this container asset, therefore you must create one before you start doing anything else.</description>
+    <pubDate>Fri, 03 Nov 2023 15:22:17 GMT</pubDate>
+  </item><item>
+    <title>The Editor</title>
+    <link>https://docs.vinark.dev/Getting-started/Editor-window</link>
+    <guid>https://docs.vinark.dev/Getting-started/Editor-window</guid>
+    <description>Editor window § The better rule tiles editor window is the place where the magic happens. You access it by creating a Better rule tile container asset and opening it.</description>
+    <pubDate>Fri, 03 Nov 2023 15:22:17 GMT</pubDate>
+  </item><item>
+    <title>Export Tiles</title>
+    <link>https://docs.vinark.dev/Getting-started/Export</link>
+    <guid>https://docs.vinark.dev/Getting-started/Export</guid>
+    <description>Exporting Tiles § After you’ve created your Tiles and set up your Tiling rules, you can head to the Export options to export your tiles into tile assets you can use in the game.</description>
+    <pubDate>Fri, 03 Nov 2023 15:22:17 GMT</pubDate>
+  </item><item>
+    <title>Sprites</title>
+    <link>https://docs.vinark.dev/Getting-started/Sprite</link>
+    <guid>https://docs.vinark.dev/Getting-started/Sprite</guid>
+    <description>Sprites § Sprites are an essential part of the tool. Every sprite placed on the grid on top of a Tile will create a Tiling rule in the exported tile. Adding sprites to the editor § To add sprites, you just simply drag and drop them from the project window to the editor.</description>
+    <pubDate>Fri, 03 Nov 2023 15:22:17 GMT</pubDate>
+  </item><item>
+    <title>Tiles</title>
+    <link>https://docs.vinark.dev/Getting-started/Tile</link>
+    <guid>https://docs.vinark.dev/Getting-started/Tile</guid>
+    <description>Tiles § Tiles are an essential part of the tool. They represent the actual tiles which will be generated and the ones that you’ll be able to place into your game.</description>
+    <pubDate>Fri, 03 Nov 2023 15:22:17 GMT</pubDate>
+  </item><item>
+    <title>Tiling Rules</title>
+    <link>https://docs.vinark.dev/Getting-started/Tiling-rule</link>
+    <guid>https://docs.vinark.dev/Getting-started/Tiling-rule</guid>
+    <description>Tiling rules § Tiling rules are what makes it possible for the rule tiles to work. When placing the tile on the tilemap, it’ll check all adjacent tiles, and look for a tiling rule that matches with the surroundings.</description>
+    <pubDate>Fri, 03 Nov 2023 15:22:17 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>
