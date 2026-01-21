@@ -1,0 +1,25 @@
+{
+	"nodes":[
+		{"id":"9b46d71182777205","type":"text","text":"BetterHexagonalRuleTile","x":-460,"y":400,"width":250,"height":60,"color":"5"},
+		{"id":"b5819fbe7517d031","type":"text","text":"- Has to derive from Hexagonal tile\n- Can't just copy functions over (Not my code & won't receive updates)","x":-920,"y":345,"width":370,"height":170},
+		{"id":"0158fbf299ba553b","type":"text","text":"BetterRuleTile","x":280,"y":400,"width":250,"height":60,"color":"5"},
+		{"id":"7c64c0e9e5281357","type":"text","text":"- They share the same overrides, variables\n- Can't derive from same class because of the Hexagonal rule tile","x":-160,"y":360,"width":392,"height":140},
+		{"id":"4a71b26ac3b13d46","type":"text","text":"Interface","x":-89,"y":580,"width":250,"height":60,"color":"5"},
+		{"id":"68ea2c7d0a97b025","type":"text","text":"RuleTile","x":-89,"y":120,"width":250,"height":60,"color":"6"},
+		{"id":"3dafbbbd5c11deb4","type":"text","text":"BaseTile","x":-88,"y":-40,"width":250,"height":60,"color":"6"},
+		{"id":"9985dd273d324427","type":"text","text":"- { Get; Set; } Properties don't get saved in ScriptableObjects\n- Propfull properties don't work with lists or arrays","x":-178,"y":720,"width":429,"height":187},
+		{"id":"b384ed0ec7c9ed0e","type":"text","text":"HexagonalRuleTile","x":-460,"y":285,"width":250,"height":60,"color":"6"}
+	],
+	"edges":[
+		{"id":"56c43e106ef086be","fromNode":"68ea2c7d0a97b025","fromSide":"top","toNode":"3dafbbbd5c11deb4","toSide":"bottom","color":"2"},
+		{"id":"0806429b335f7b25","fromNode":"b384ed0ec7c9ed0e","fromSide":"top","toNode":"68ea2c7d0a97b025","toSide":"left","color":"2"},
+		{"id":"03f566c866e6b756","fromNode":"9b46d71182777205","fromSide":"top","toNode":"b384ed0ec7c9ed0e","toSide":"bottom","color":"4"},
+		{"id":"ca60b0d8d69e3699","fromNode":"0158fbf299ba553b","fromSide":"top","toNode":"68ea2c7d0a97b025","toSide":"right","color":"4"},
+		{"id":"017e211299a73dd4","fromNode":"b5819fbe7517d031","fromSide":"right","toNode":"9b46d71182777205","toSide":"left","toEnd":"none"},
+		{"id":"88ef0e2a18f24df9","fromNode":"7c64c0e9e5281357","fromSide":"left","toNode":"9b46d71182777205","toSide":"right","toEnd":"none"},
+		{"id":"83b42ac4ba78dd08","fromNode":"7c64c0e9e5281357","fromSide":"right","toNode":"0158fbf299ba553b","toSide":"left","toEnd":"none"},
+		{"id":"6e5c2c23d0284752","fromNode":"9b46d71182777205","fromSide":"bottom","toNode":"4a71b26ac3b13d46","toSide":"left","color":"4"},
+		{"id":"4118ea3fa23b07ab","fromNode":"0158fbf299ba553b","fromSide":"bottom","toNode":"4a71b26ac3b13d46","toSide":"right","color":"4"},
+		{"id":"537f82f51500aa65","fromNode":"4a71b26ac3b13d46","fromSide":"bottom","toNode":"9985dd273d324427","toSide":"top","toEnd":"none"}
+	]
+}
