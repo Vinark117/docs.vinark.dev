@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>Better Rule Tiles</title>
+      <link>https://docs.vinark.dev</link>
+      <description>Last 10 notes on Better Rule Tiles</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>Changelog</title>
+    <link>https://docs.vinark.dev/Changelog</link>
+    <guid>https://docs.vinark.dev/Changelog</guid>
+    <description><![CDATA[ Version 1.5.0-b3 Updated package.json Changed version from 2019.4 to 2022.3 to reflect the development version. ]]></description>
+    <pubDate>Thu, 22 Jan 2026 12:12:27 GMT</pubDate>
+  </item><item>
+    <title>Changelog (Beta)</title>
+    <link>https://docs.vinark.dev/Beta-Changelog</link>
+    <guid>https://docs.vinark.dev/Beta-Changelog</guid>
+    <description><![CDATA[ This page shows more detailed changelogs of past beta releases, if you’re looking for the release changelogs you can head over here. ]]></description>
+    <pubDate>Thu, 22 Jan 2026 12:11:32 GMT</pubDate>
+  </item><item>
+    <title>★ Tileset Editor</title>
+    <link>https://docs.vinark.dev/Tileset-Editor</link>
+    <guid>https://docs.vinark.dev/Tileset-Editor</guid>
+    <description><![CDATA[ How to open the Tileset Editor To use the tileset editor, you first need to create a Tileset Container. ]]></description>
+    <pubDate>Thu, 22 Jan 2026 12:06:50 GMT</pubDate>
+  </item><item>
+    <title>★ Import Window</title>
+    <link>https://docs.vinark.dev/Import-window</link>
+    <guid>https://docs.vinark.dev/Import-window</guid>
+    <description><![CDATA[ Work in progress . ]]></description>
+    <pubDate>Thu, 22 Jan 2026 11:42:09 GMT</pubDate>
+  </item><item>
+    <title>FAQ</title>
+    <link>https://docs.vinark.dev/Frequently-Asked-Questions</link>
+    <guid>https://docs.vinark.dev/Frequently-Asked-Questions</guid>
+    <description><![CDATA[ Frequently Asked Questions My sprites get displayed as missing textures. ]]></description>
+    <pubDate>Thu, 22 Jan 2026 10:40:13 GMT</pubDate>
+  </item><item>
+    <title>Welcome</title>
+    <link>https://docs.vinark.dev/</link>
+    <guid>https://docs.vinark.dev/</guid>
+    <description><![CDATA[ Better Rule Tiles Better Rule Tiles for Unity was made to make the hassle of creating rule tiles better, easier and more intuitive that Unity’s built in solution, while also added more features which would require you to code them yourself. ]]></description>
+    <pubDate>Thu, 22 Jan 2026 10:18:24 GMT</pubDate>
+  </item><item>
+    <title>★ BRT Editor</title>
+    <link>https://docs.vinark.dev/Better-Rule-Tile-Editor</link>
+    <guid>https://docs.vinark.dev/Better-Rule-Tile-Editor</guid>
+    <description><![CDATA[ Test. ]]></description>
+    <pubDate>Thu, 22 Jan 2026 10:12:43 GMT</pubDate>
+  </item><item>
+    <title>Games using BRT</title>
+    <link>https://docs.vinark.dev/Games-using-Better-Rule-Tiles</link>
+    <guid>https://docs.vinark.dev/Games-using-Better-Rule-Tiles</guid>
+    <description><![CDATA[ I’m glad so many people enjoy the tool I’ve created and use them to create amazing games! Here are a few games using Better Rule Tiles that users from the discord server have shared. ]]></description>
+    <pubDate>Thu, 22 Jan 2026 10:04:15 GMT</pubDate>
+  </item><item>
+    <title>Tile Inspector</title>
+    <link>https://docs.vinark.dev/BRT-Editor/Tile-inspector</link>
+    <guid>https://docs.vinark.dev/BRT-Editor/Tile-inspector</guid>
+    <description><![CDATA[ Tile inspector The tile inspector is the place where you can change the settings of the Tiles you created in the Tile drawer window. ]]></description>
+    <pubDate>Wed, 21 Jan 2026 16:24:25 GMT</pubDate>
+  </item><item>
+    <title>Export Options</title>
+    <link>https://docs.vinark.dev/BRT-Editor/Export-options</link>
+    <guid>https://docs.vinark.dev/BRT-Editor/Export-options</guid>
+    <description><![CDATA[ Export options The export options contains every setting that’ll affect the output of the exported tiles, and is also the place when you can export them. ]]></description>
+    <pubDate>Wed, 21 Jan 2026 16:24:25 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>

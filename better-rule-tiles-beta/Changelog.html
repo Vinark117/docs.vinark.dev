@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head><title>Changelog</title><meta charset="utf-8"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;family=IBM Plex Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="Better Rule Tiles"/><meta property="og:title" content="Changelog"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="Changelog"/><meta name="twitter:description" content="Version 1.5.0-b3 Updated package.json Changed version from 2019.4 to 2022.3 to reflect the development version."/><meta property="og:description" content="Version 1.5.0-b3 Updated package.json Changed version from 2019.4 to 2022.3 to reflect the development version."/><meta property="og:image:alt" content="Version 1.5.0-b3 Updated package.json Changed version from 2019.4 to 2022.3 to reflect the development version."/><meta property="twitter:domain" content="docs.vinark.dev"/><meta property="og:url" content="https://docs.vinark.dev/Changelog"/><meta property="twitter:url" content="https://docs.vinark.dev/Changelog"/><link rel="icon" href="./static/icon.png"/><meta name="description" content="Version 1.5.0-b3 Updated package.json Changed version from 2019.4 to 2022.3 to reflect the development version."/><meta name="generator" content="Quartz"/><link href="./index.css" rel="stylesheet" type="text/css" data-persist="true"/><style>.expand-button {
+  position: absolute;
+  display: flex;
+  float: right;
+  padding: 0.4rem;
+  margin: 0.3rem;
+  right: 0;
+  color: var(--gray);
+  border-color: var(--dark);
+  background-color: var(--light);
+  border: 1px solid;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.2s;
+}
+.expand-button > svg {
+  fill: var(--light);
+  filter: contrast(0.3);
+}
+.expand-button:hover {
+  cursor: pointer;
+  border-color: var(--secondary);
+}
+.expand-button:focus {
+  outline: 0;
+}
+
+pre:hover > .expand-button {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+#mermaid-container {
+  position: fixed;
+  contain: layout;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: none;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.5);
+}
+#mermaid-container.active {
+  display: inline-block;
+}
+#mermaid-container > #mermaid-space {
+  border: 1px solid var(--lightgray);
+  background-color: var(--light);
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 80vw;
+  overflow: hidden;
+}
+#mermaid-container > #mermaid-space > .mermaid-content {
+  position: relative;
+  transform-origin: 0 0;
+  transition: transform 0.1s ease;
+  overflow: visible;
+  min-height: 200px;
+  min-width: 200px;
+}
+#mermaid-container > #mermaid-space > .mermaid-content pre {
+  margin: 0;
+  border: none;
+}
+#mermaid-container > #mermaid-space > .mermaid-content svg {
+  max-width: none;
+  height: auto;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: var(--bodyFont);
+  transition: all 0.2s ease;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:hover {
+  background: var(--lightgray);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:active {
+  transform: translateY(1px);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:nth-child(2) {
+  width: auto;
+  padding: 0 12px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiL2hvbWUvbWFyay9Eb2N1bWVudHMvR2l0L3F1YXJ0ei1CUlQtRG9jcy9xdWFydHovY29tcG9uZW50cy9zdHlsZXMiLCJzb3VyY2VzIjpbIm1lcm1haWQuaW5saW5lLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTtFQUNBOztBQUdGO0VBQ0U7OztBQUtGO0VBQ0U7RUFDQTs7O0FBSUo7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7O0FBR0Y7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTtFQUNBOztBQUlKO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTs7QUFHRjtFQUNFOztBQUlGO0VBQ0U7RUFDQTtFQUNBIiwic291cmNlc0NvbnRlbnQiOlsiLmV4cGFuZC1idXR0b24ge1xuICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGZsb2F0OiByaWdodDtcbiAgcGFkZGluZzogMC40cmVtO1xuICBtYXJnaW46IDAuM3JlbTtcbiAgcmlnaHQ6IDA7IC8vIE5PVEU6IHJpZ2h0IHdpbGwgYmUgc2V0IGluIG1lcm1haWQuaW5saW5lLnRzXG4gIGNvbG9yOiB2YXIoLS1ncmF5KTtcbiAgYm9yZGVyLWNvbG9yOiB2YXIoLS1kYXJrKTtcbiAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0tbGlnaHQpO1xuICBib3JkZXI6IDFweCBzb2xpZDtcbiAgYm9yZGVyLXJhZGl1czogNXB4O1xuICBvcGFjaXR5OiAwO1xuICB0cmFuc2l0aW9uOiAwLjJzO1xuXG4gICYgPiBzdmcge1xuICAgIGZpbGw6IHZhcigtLWxpZ2h0KTtcbiAgICBmaWx0ZXI6IGNvbnRyYXN0KDAuMyk7XG4gIH1cblxuICAmOmhvdmVyIHtcbiAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgYm9yZGVyLWNvbG9yOiB2YXIoLS1zZWNvbmRhcnkpO1xuICB9XG5cbiAgJjpmb2N1cyB7XG4gICAgb3V0bGluZTogMDtcbiAgfVxufVxuXG5wcmUge1xuICAmOmhvdmVyID4gLmV4cGFuZC1idXR0b24ge1xuICAgIG9wYWNpdHk6IDE7XG4gICAgdHJhbnNpdGlvbjogMC4ycztcbiAgfVxufVxuXG4jbWVybWFpZC1jb250YWluZXIge1xuICBwb3NpdGlvbjogZml4ZWQ7XG4gIGNvbnRhaW46IGxheW91dDtcbiAgei1pbmRleDogOTk5O1xuICBsZWZ0OiAwO1xuICB0b3A6IDA7XG4gIHdpZHRoOiAxMDB2dztcbiAgaGVpZ2h0OiAxMDB2aDtcbiAgb3ZlcmZsb3c6IGhpZGRlbjtcbiAgZGlzcGxheTogbm9uZTtcbiAgYmFja2Ryb3AtZmlsdGVyOiBibHVyKDRweCk7XG4gIGJhY2tncm91bmQ6IHJnYmEoMCwgMCwgMCwgMC41KTtcblxuICAmLmFjdGl2ZSB7XG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICB9XG5cbiAgJiA+ICNtZXJtYWlkLXNwYWNlIHtcbiAgICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1saWdodGdyYXkpO1xuICAgIGJhY2tncm91bmQtY29sb3I6IHZhcigtLWxpZ2h0KTtcbiAgICBib3JkZXItcmFkaXVzOiA1cHg7XG4gICAgcG9zaXRpb246IGZpeGVkO1xuICAgIHRvcDogNTAlO1xuICAgIGxlZnQ6IDUwJTtcbiAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSgtNTAlLCAtNTAlKTtcbiAgICBoZWlnaHQ6IDgwdmg7XG4gICAgd2lkdGg6IDgwdnc7XG4gICAgb3ZlcmZsb3c6IGhpZGRlbjtcblxuICAgICYgPiAubWVybWFpZC1jb250ZW50IHtcbiAgICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICAgIHRyYW5zZm9ybS1vcmlnaW46IDAgMDtcbiAgICAgIHRyYW5zaXRpb246IHRyYW5zZm9ybSAwLjFzIGVhc2U7XG4gICAgICBvdmVyZmxvdzogdmlzaWJsZTtcbiAgICAgIG1pbi1oZWlnaHQ6IDIwMHB4O1xuICAgICAgbWluLXdpZHRoOiAyMDBweDtcblxuICAgICAgcHJlIHtcbiAgICAgICAgbWFyZ2luOiAwO1xuICAgICAgICBib3JkZXI6IG5vbmU7XG4gICAgICB9XG5cbiAgICAgIHN2ZyB7XG4gICAgICAgIG1heC13aWR0aDogbm9uZTtcbiAgICAgICAgaGVpZ2h0OiBhdXRvO1xuICAgICAgfVxuICAgIH1cblxuICAgICYgPiAubWVybWFpZC1jb250cm9scyB7XG4gICAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgICBib3R0b206IDIwcHg7XG4gICAgICByaWdodDogMjBweDtcbiAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICBnYXA6IDhweDtcbiAgICAgIHBhZGRpbmc6IDhweDtcbiAgICAgIGJhY2tncm91bmQ6IHZhcigtLWxpZ2h0KTtcbiAgICAgIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgICBib3JkZXItcmFkaXVzOiA2cHg7XG4gICAgICBib3gtc2hhZG93OiAwIDJweCA0cHggcmdiYSgwLCAwLCAwLCAwLjEpO1xuICAgICAgei1pbmRleDogMjtcblxuICAgICAgLm1lcm1haWQtY29udHJvbC1idXR0b24ge1xuICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgICAgICAgd2lkdGg6IDMycHg7XG4gICAgICAgIGhlaWdodDogMzJweDtcbiAgICAgICAgcGFkZGluZzogMDtcbiAgICAgICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHQpO1xuICAgICAgICBjb2xvcjogdmFyKC0tZGFyayk7XG4gICAgICAgIGJvcmRlci1yYWRpdXM6IDRweDtcbiAgICAgICAgY3Vyc29yOiBwb2ludGVyO1xuICAgICAgICBmb250LXNpemU6IDE2cHg7XG4gICAgICAgIGZvbnQtZmFtaWx5OiB2YXIoLS1ib2R5Rm9udCk7XG4gICAgICAgIHRyYW5zaXRpb246IGFsbCAwLjJzIGVhc2U7XG5cbiAgICAgICAgJjpob3ZlciB7XG4gICAgICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgICAgfVxuXG4gICAgICAgICY6YWN0aXZlIHtcbiAgICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoMXB4KTtcbiAgICAgICAgfVxuXG4gICAgICAgIC8vIFN0eWxlIHRoZSByZXNldCBidXR0b24gZGlmZmVyZW50bHlcbiAgICAgICAgJjpudGgtY2hpbGQoMikge1xuICAgICAgICAgIHdpZHRoOiBhdXRvO1xuICAgICAgICAgIHBhZGRpbmc6IDAgMTJweDtcbiAgICAgICAgICBmb250LXNpemU6IDE0cHg7XG4gICAgICAgIH1cbiAgICAgIH1cbiAgICB9XG4gIH1cbn1cbiJdfQ== */</style><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" data-persist="true"/><script src="./prescript.js" type="application/javascript" data-persist="true"></script><script type="application/javascript" data-persist="true">const fetchData = fetch("./static/contentIndex.json").then(data => data.json())</script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://docs.vinark.dev/index.xml"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image" content="https://docs.vinark.dev/Changelog-og-image.webp"/><meta property="og:image:url" content="https://docs.vinark.dev/Changelog-og-image.webp"/><meta name="twitter:image" content="https://docs.vinark.dev/Changelog-og-image.webp"/><meta property="og:image:type" content="image/.webp"/></head><body data-slug="Changelog"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href=".">Better Rule Tiles</a></h2><div class="spacer mobile-only"></div><div class="search"><button class="search-button"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg><p>Search</p></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div class="search-layout" data-preview="true"></div></div></div></div><button class="darkmode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="Dark mode"><title>Dark mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="Light mode"><title>Light mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button><div class="explorer desktop-only" data-behavior="link" data-collapsed="collapsed" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a,b)=>!a.isFolder&amp;&amp;!b.isFolder||a.isFolder&amp;&amp;b.isFolder?a.displayName.localeCompare(b.displayName,void 0,{numeric:!0,sensitivity:\&quot;base\&quot;}):!a.isFolder&amp;&amp;b.isFolder?1:-1&quot;,&quot;filterFn&quot;:&quot;node=>node.slugSegment!==\&quot;tags\&quot;&quot;,&quot;mapFn&quot;:&quot;node=>node&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-541"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>Explorer</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-541" class="explorer-content" aria-expanded="false" role="group"><ul class="explorer-ul overflow" id="list-0"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#"></a></li></template><template id="template-folder"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="./">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>Changelog</a></div></nav><p show-comma="true" class="content-meta"><time datetime="2026-01-22T12:12:27.895Z">Jan 22, 2026</time><span>12 min read</span></p></div></div><article class="popover-hint"><h2 id="version-150-b3">Version 1.5.0-b3<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#version-150-b3" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li>Updated package.json
+<ul>
+<li>Changed version from <strong>2019.4</strong> to <strong>2022.3</strong> to reflect the development version.</li>
+<li>Changed the documentation url to point to the beta docs.</li>
+<li>Added the new sample to the list of samples.</li>
+</ul>
+</li>
+</ul>
+<h2 id="version-150-b2">Version 1.5.0-b2<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#version-150-b2" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li>Added a new sample for the <strong>Tilesets</strong>.</li>
+<li>Added a new <strong>CHANGELOG.md</strong> file to the package folder, which contains the up-to date changes for beta releases.</li>
+<li>Removed the tile palette assets from the samples to not clutter the selection of tile palettes for the user.</li>
+</ul>
+<h2 id="version-150-b1">Version 1.5.0-b1<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#version-150-b1" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h4 id="an-entire-new-way-of-creating-tiles-was-added-to-the-tool-the-tileset-editor">An entire new way of creating tiles was added to the tool, the <strong>Tileset Editor</strong>:<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#an-entire-new-way-of-creating-tiles-was-added-to-the-tool-the-tileset-editor" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<ul>
+<li>The <strong>TileSet Editor</strong> is a an entirely new editor window, created to speed up the creation even more of simpler rule tiles.</li>
+<li><em><strong>NOTE: The Tileset Editor only works with square tiles</strong></em></li>
+<li>You can access this new editor by creating a <strong>Tileset Container</strong>. You can do this by right clicking in the project window (Or clicking the <code>Assets</code> menu item) and navigating to either <code>Create/2D/Tiles/Tileset Container</code> or to <code>Tools/Better Rule Tiles/Create Tileset Container</code> in the menu bar. Open this file to show the new editor.</li>
+<li>To get started with the <strong>Tileset Editor</strong>, you need to import a sprite sheet. You can do this by drag and dropping it to the left panel of the editor or by clicking the import button in the bottom right of the panel.</li>
+<li>It’s important to note that this editor was designed to work with sliced sprite sheets, using individual sprites is possible but it’d defeat the purpose and ease of use of the editor.</li>
+<li>When selecting a sprite sheet, you can edit its rules and properties in the respective tabs of the main toolbar:
+<ul>
+<li>The <strong>Draw</strong> tab is the place where you’ll define the neighbor rules of the sprites. You can create a tile by clicking the <code>Add new tile</code> button on the bottom of the tab.
+You’ll see that the options are quite limited compared to the regular <strong>BRT Editor</strong>. Don’t worry, you’re still able to edit the other properties, more on that later. The two settings you can modify is the color of the tile and its name, you can do this by clicking on the color swatch and the name of the tile respectively. To select this tile for drawing, click the brush icon to its right.
+Once you’ve selected a tile you can start drawing by left clicking on the sprite sheet. You can erase tiles by right clicking.
+You’ll notice that the neighbor rules are laid out a bit differently in this editor. The surrounding 3x3 grid of tiles got squished into the single cell of the sprite, this makes visualizing the connections more clear.</li>
+<li>The <strong>GameObject</strong>, <strong>Collision</strong> and <strong>Output</strong> tabs will all show the same contents on the sidebar. Use left click to select the sprite to display. The contents are similar to the <strong>Grid cell inspector</strong> tool. You can assign gameobjects to the sprites, edit it’s collider or change the output of the tile.</li>
+<li>The <strong>GameObject</strong> tab will let you assign gameobjects to the tiles. Just drag and drop gameobjects to the sprites to assign them. Or right click to un-assign them.</li>
+<li>In the <strong>Collision</strong> tab you can cycle through the collision types by right clicking on the sprites.</li>
+<li>The <strong>Output</strong> tab will let you preview animations if your sprites are animated. You’ll have to use the sidebar to assign sprites to the animation.</li>
+</ul>
+</li>
+<li>The right side of the toolbar has two buttons, the left button is the <strong>export button</strong>, clicking this will export the tiles. Compared to the <strong>BRT Editor</strong>, this button will not display a dropdown, and will use the default options if you haven’t modified them.</li>
+<li>The right-most button will switch to the <strong>BRT Editor</strong>:
+<ul>
+<li>Both editors use the same type of file, so you can easily switch between the two editors, if the file was created as a <strong>Tileset Container</strong></li>
+<li>When switching to the <strong>BRT Editor</strong>, you’ll quickly see how the <strong>Tileset Editor</strong> functions and lays out the sprites and tiles. The area used by the <strong>Tileset Editor</strong> is highlighted in a dark red background color. <strong>Editing this area is not restricted, however using it for manually creating rules is heavily discouraged</strong>, as the tiles and sprites can be replaced by the <strong>Tileset Editor</strong>.</li>
+<li>You are free to do anything else you’d able to do if it wasn’t a <strong>Tileset Container</strong>, and any changes made here will affect the exported tiles, no matter which editor was used to export them.</li>
+</ul>
+</li>
+</ul>
+<h4 id="implemented-scriptable-rule-tiles-experimental">Implemented scriptable rule tiles (Experimental)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#implemented-scriptable-rule-tiles-experimental" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<ul>
+<li>Adding new neighbor rules to tiles will now dynamically add those rules to the tile drawer in the editor.</li>
+<li>You can now change what rule tile script to use in the export dropdown.</li>
+<li><em><strong>DISCLAIMER: As of this moment, adding custom rules requires to edit scripts inside the package, this means the changes you make will not be kept when updating. The code will also be changed in the future, so you’ll have to edit the files with each update, creating a backup of the scripts and overwriting them when updating will lead to broken code once this feature is updated.</strong></em></li>
+<li>You can edit the following files to add your own rules. Or use these files as a template to create your own rule tile:
+<ul>
+<li><code>BetterRuleTiles/Runtime/RuleTiles/BetterRuleTile.cs</code> - Square and isometric tiles</li>
+<li><code>BetterRuleTiles/Runtime/RuleTiles/BetterHexagonalRuleTile.cs</code> - Both types of hexagonal tiles</li>
+</ul>
+</li>
+<li>If you wish to create a new type of tile, you have to add it to all 3 functions in the <code>BetterRuleTiles/Editor/Generation/ExtendedBetterRuleTileGenerator.cs</code> file.
+<ul>
+<li>The <code>CustomTileTypes</code> enum is responsible for selecting the tile in the export dropdown.</li>
+<li>The <code>GetCustomTileType</code> function is responsible for translating the selected enum to the tile type.</li>
+<li>The <code>GenerateCustomTiles</code> function gets called to generate tiles with the correct type.</li>
+</ul>
+</li>
+<li>The textures are encoded into Base64 strings. You can open a converter utility by opening the menu item <code>Tools/Better Rule Tiles/Open TexToBase64 Converter</code></li>
+</ul>
+<h4 id="changed-the-workflow-of-importing-textures">Changed the workflow of importing textures:<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#changed-the-workflow-of-importing-textures" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<ul>
+<li>When drag &amp; dropping an entire sprite sheet into the editor, a new window will appear instead of immediately importing the sprites. In this window you can select to import sprites as usual, or you can select the other modes to speed up the importing of animated, randomized or pattern tiles.</li>
+<li>This window is also the main way to import sprites into the <strong>TileSet Editor</strong>.</li>
+</ul>
+<h4 id="new-features">New features<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#new-features" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<ul>
+<li>Sprites on the editor grid now respect the aspect ratio and the pivot point.</li>
+<li>When using the <strong>Brush tool</strong>, you can hold down the CTRL key to temporarily switch to the <strong>Picker tool</strong></li>
+<li>You can now manually prioritize tiles by changing the new <code>Priority modifier</code> option in the <strong>grid cell info window</strong>.</li>
+</ul>
+<h4 id="quality-of-life-improvements">Quality of life improvements<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#quality-of-life-improvements" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<ul>
+<li>The toolbar now expands to 4 lines if the editor window is too narrow</li>
+<li>Changed how the container assets get displayed in the project window</li>
+<li>Default sprites of tiles will now be automatically assigned if the user didn’t specify it</li>
+<li>Changed the default 32x32 pixel <strong>Grid size</strong> option in the settings dropdown to a <strong>Cell size</strong> option with a default value of 1x1, to better match the built in Grid class.</li>
+<li>Exposed the tile object reference field in to container inspector so it is more accessible in case it is needed</li>
+<li>Increased maximum zoom amount in the grid</li>
+<li>The anchor of the editor grid can now be changed in the editor settings dropdown.</li>
+<li>Once you’ve exported a container, it’ll not let you change the editor grid type.</li>
+<li>Changed the cursor type based on which tools are selected:
+<ul>
+<li>A cross icon will be displayed when the selected tool is the <strong>picker tool</strong>, also applies when you’re holding down CTRL with the brush tool</li>
+<li>When there’s an active selection, the <strong>Move tool</strong> will display a move icon</li>
+<li>A zoom icon will appear when there’s a tile you can select using the <strong>Cell inspector tool</strong></li>
+</ul>
+</li>
+<li>Inside the BRT Editor, the current grid cell where the mouse is hovering over is now highlighted.</li>
+<li>When using the brush tool, the selected tile/sprite under the cursor will be displayed on the grid with half opacity, this way you can more easily see what and where you’re placing it.</li>
+</ul>
+<h4 id="changed-how-copy--paste-work-inside-the-brt-editor">Changed how copy &amp; paste work inside the BRT editor:<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#changed-how-copy--paste-work-inside-the-brt-editor" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<ul>
+<li>Copying something will now deselect the copied region as a confirmation for the user</li>
+<li>Copy &amp; paste is now universal and works across different BRT Editors</li>
+<li>The pasted object now appears at the mouse cursor instead of the original position</li>
+<li>When pasting to another editor, any missing tiles will be created automatically. (Only a blank new tile will be created, and if the tile with the same ID is already present in the asset than that tile will be used. You can use the replace tool to replace the tiles after pasting. An automatic replace function is planned for the future)</li>
+</ul>
+<h4 id="performance-and-bug-fixes">Performance and bug fixes:<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#performance-and-bug-fixes" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<ul>
+<li>Refactored a <strong>lot</strong> of code</li>
+<li>Removed an unnecessary <code>ref</code> keyword from the <code>BetterRuleTileGenerator.cs</code> which could cause a <code>foreach</code> loop to break early in some rare cases</li>
+<li>Fixed <a href="https://github.com/Vinark117/BetterRuleTiles-Support/issues/27" class="external">Issue #27<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>: Added a check to prevent duplicate neighbor positions</li>
+<li>Changed how textures and styles are stored, which should lead to less warnings</li>
+<li>Changed how sprite textures are cached, which should lead to less missing texture warnings</li>
+<li>Sprite drawer and override settings can now be moved when the windows are unlocked</li>
+<li>Fixed shortcuts requiring CTRL not working on mac</li>
+</ul>
+<h2 id="version-146">Version 1.4.6<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#version-146" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li>Fixed <a href="https://github.com/Vinark117/BetterRuleTiles-Support/issues/32" class="external">Issue #32<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>: Can’t build app</li>
+</ul>
+<h2 id="version-145">Version 1.4.5<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#version-145" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li>Fixed an issue with patterns not working correctly</li>
+<li>Implemented <a href="https://github.com/Vinark117/BetterRuleTiles-Support/issues/29" class="external">Feature #29<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>: Improved the sprite &amp; tile replace window
+<ul>
+<li>The window is now separated into 3 tabs. The previous <strong>replace sprites</strong> and <strong>replace tiles</strong> options have been moved to their own tab, and a new <strong>replace overrides</strong> tab has been added.</li>
+<li>The replace sprites tab now has an option to replace all sprites that are used for animations, patterns, etc. This option is hidden when using <strong>universal sprite settings</strong></li>
+<li>In the new <strong>Replace overrides</strong> tab you can replace sprites inside the <strong>sprite override settings</strong> window. Just select an override, and you can either modify that, or create a duplicate with the modified sprites.</li>
+</ul>
+</li>
+</ul>
+<h2 id="version-144">Version 1.4.4<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#version-144" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li>Fixed <a href="https://github.com/Vinark117/BetterRuleTiles-Support/issues/15" class="external">Issue #15<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>: Improved performance of better rule tiles</li>
+<li>Fixed <a href="https://github.com/Vinark117/BetterRuleTiles-Support/issues/16" class="external">Issue #16<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>: Changed how modified tiles are highlighted:
+<ul>
+<li>Yellow flashing indicates that the neighbor positions or the transform have been modified.</li>
+<li>Pink flashing indicates if either:
+<ul>
+<li>The collider type has been changed</li>
+<li>The sprite output type has been changed</li>
+<li>The sprites array has more than one sprite in it</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Fixed bug: Tiles with ID 1 and 2 were displayed incorrectly when inspecting the tiling rules in a Better Rule Tiles asset</li>
+<li>Fixed <a href="https://github.com/Vinark117/BetterRuleTiles-Support/issues/25" class="external">Issue #25<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>: Fixed issue with transition rules</li>
+<li>Tiles that are set up to connect to each other now won’t be treated as the same tile by the tiling rules. This behavior can be re-enabled inside the export menu under the new option: “Treat similar tiles as same”</li>
+</ul>
+<h2 id="version-143">Version 1.4.3<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#version-143" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li>Fixed <a href="https://github.com/Vinark117/BetterRuleTiles-Support/issues/9" class="external">Issue #9<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>: Can’t build app</li>
+</ul>
+<h2 id="version-142">Version 1.4.2<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#version-142" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li>Restructured folder layout</li>
+<li>Separated utility scripts to their own assemblies (for use in other packages)</li>
+<li>Several Unity error fixes</li>
+<li>Fixed <a href="https://github.com/Vinark117/BetterRuleTiles-Support/issues/1" class="external">Issue #1<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>: Moving hexagonal tiles shift neighbor positions</li>
+<li>Fixed <a href="https://github.com/Vinark117/BetterRuleTiles-Support/issues/7" class="external">Issue #7<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>: Copy-paste neighbor sync</li>
+<li>Fixed <a href="https://github.com/Vinark117/BetterRuleTiles-Support/issues/8" class="external">Issue #8<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>: Pasting and moving hexagonal tiles doesn’t keep shape</li>
+<li>Fixed <a href="https://github.com/Vinark117/BetterRuleTiles-Support/issues/2" class="external">Issue #2<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>: Hexagonal tile export fix</li>
+<li>Hexagonal tiles will now be generated as the new <code>BetterHexagonalRuleTile</code> class</li>
+<li>Removed <code>Patterns</code> option from hexagonal tiles</li>
+<li>New <a href="https://docs.vinark.dev/better-rule-tiles/" class="external">documentation website<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>!</li>
+<li>Added offline documentation to the package</li>
+</ul>
+<h2 id="version-141">Version 1.4.1<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#version-141" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li>Fixed sprite output transform when using universal sprite settings</li>
+<li>Readded sprite output transform option when using preset blocks</li>
+<li>Fixed <a href="https://github.com/Vinark117/BetterRuleTiles-Support/issues/4" class="external">Issue #4<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>: Moving and pasting over something will now override what’s already there</li>
+<li>Fixed <a href="https://github.com/Vinark117/BetterRuleTiles-Support/issues/3" class="external">Issue #3<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>: Added support for light theme</li>
+<li>Toolbar bugfix</li>
+</ul>
+<h2 id="version-140">Version 1.4.0<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#version-140" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li>Added a new <strong>Sprite override settings window</strong>, here you can change the output parameters of a sprite, so if you place that sprite down multiple times it’ll always have the same output.</li>
+<li>Separated the <code>sprite drawer</code> toolbar button and added a new button to open the <code>Universal sprite settings</code></li>
+<li>Added an <code>Enable universal sprite settings</code> option to the export menu, this option is enabled by default on newly created assets, and disabled on already existing assets</li>
+<li>Improved UI for better readability and separation between sections of the window.</li>
+<li>Renamed <code>tile variations</code> and <code>variation of</code> options to make them less confusing.</li>
+<li>Added a confirmation window when deleting a tile.</li>
+<li>Fixed error which caused the game to not build</li>
+<li>Textures will be marked readable automatically if they’re not already, it’s not required to set it manually anymore</li>
+<li>Added a new <strong>Preset block</strong> feature. Draw part of a scene in the editor and mark it as a preset block to make sure it’ll look as you wanted it to. To remove the preset block, use the <code>grid cell inspector</code> on a tile inside the preset block.</li>
+<li>Added more tooltips</li>
+<li>Added <strong>Examples</strong> each with their own tilemaps and scenes for the following features:
+<ul>
+<li>simplify rules feature</li>
+<li>creating rules</li>
+<li>preset blocks</li>
+<li>connections between tiles</li>
+<li>universal sprite settings and sprite options</li>
+<li>variations</li>
+<li>custom properties</li>
+</ul>
+</li>
+<li>Toolbar now better adapts to the width of the editor window</li>
+</ul>
+<h2 id="version-133">Version 1.3.3<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#version-133" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li>Fixed bug: Tiles randomly disappear from the grid and the tile drawer.</li>
+<li>Fixed bug: Editor crashes when entering or exiting play mode.</li>
+<li>Added a <code>Close window</code> button to the container asset, in case you can’t close the window in any other way.</li>
+</ul>
+<h2 id="version-132">Version 1.3.2<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#version-132" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li>Changed the way the editor handles arrays, again</li>
+</ul>
+<h2 id="version-131">Version 1.3.1<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#version-131" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li>Changed the way the editor handles arrays.</li>
+</ul>
+<h2 id="version-130">Version 1.3.0<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#version-130" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li>Added a new sprite output type: <code>Pattern</code>.</li>
+<li>Other backend changes.</li>
+</ul>
+<h2 id="version-120">Version 1.2.0<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#version-120" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li>Tested and verified compatibility with Unity 2019.</li>
+<li>Changed how locked cells are displayed.</li>
+<li>Added options to customize how locked cells are displayed.</li>
+<li>Added a sprite drawer.</li>
+<li>Added options to customize the new sprite drawer.</li>
+<li>Import all sprites with a single button press.</li>
+<li>Fixed a build error related to the Functions class.</li>
+</ul>
+<h2 id="version-110">Version 1.1.0<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#version-110" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li>Changed toolbar button placement code to be more dynamic.</li>
+<li>Added the ability to lock and unlock a selection, so it can’t be edited accidentally.</li>
+<li>Added a warning message if the default sprite was not assigned.</li>
+</ul>
+<h2 id="version-101">Version 1.0.1<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#version-101" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li>Added support for differently sliced isometric tiles, previously it only supported square sliced sprites.</li>
+<li>Updated package dependencies to reflect the minimum supported versions of packages and unity version.</li>
+<li>The tool now supports Unity 2020.</li>
+</ul>
+<h2 id="version-100">Version 1.0.0<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#version-100" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>Initial release</p></article><hr/><div class="page-footer"></div></div><div class="right sidebar"><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div class="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:false,&quot;enableRadial&quot;:false}"></div><button class="global-graph-icon" aria-label="Global Graph"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+                s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+                c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+                C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+                c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+                v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+                s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+                C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+                S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+                s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div class="global-graph-outer"><div class="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.2,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true,&quot;enableRadial&quot;:true}"></div></div></div><div class="toc desktop-only"><button type="button" class="toc-header" aria-controls="toc-490" aria-expanded="true"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><ul id="list-1" class="toc-content overflow"><li class="depth-0"><a href="#version-150-b3" data-for="version-150-b3">Version 1.5.0-b3</a></li><li class="depth-0"><a href="#version-150-b2" data-for="version-150-b2">Version 1.5.0-b2</a></li><li class="depth-0"><a href="#version-150-b1" data-for="version-150-b1">Version 1.5.0-b1</a></li><li class="depth-0"><a href="#version-146" data-for="version-146">Version 1.4.6</a></li><li class="depth-0"><a href="#version-145" data-for="version-145">Version 1.4.5</a></li><li class="depth-0"><a href="#version-144" data-for="version-144">Version 1.4.4</a></li><li class="depth-0"><a href="#version-143" data-for="version-143">Version 1.4.3</a></li><li class="depth-0"><a href="#version-142" data-for="version-142">Version 1.4.2</a></li><li class="depth-0"><a href="#version-141" data-for="version-141">Version 1.4.1</a></li><li class="depth-0"><a href="#version-140" data-for="version-140">Version 1.4.0</a></li><li class="depth-0"><a href="#version-133" data-for="version-133">Version 1.3.3</a></li><li class="depth-0"><a href="#version-132" data-for="version-132">Version 1.3.2</a></li><li class="depth-0"><a href="#version-131" data-for="version-131">Version 1.3.1</a></li><li class="depth-0"><a href="#version-130" data-for="version-130">Version 1.3.0</a></li><li class="depth-0"><a href="#version-120" data-for="version-120">Version 1.2.0</a></li><li class="depth-0"><a href="#version-110" data-for="version-110">Version 1.1.0</a></li><li class="depth-0"><a href="#version-101" data-for="version-101">Version 1.0.1</a></li><li class="depth-0"><a href="#version-100" data-for="version-100">Version 1.0.0</a></li><li class="overflow-end"></li></ul></div><div class="backlinks"><h3>Backlinks</h3><ul id="list-2" class="overflow"><li><a href="./Beta-Changelog" class="internal">Changelog (Beta)</a></li><li><a href="./" class="internal">Welcome</a></li><li class="overflow-end"></li></ul></div></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.5.2</a> © 2026</p><ul></ul></footer></div></div></body><script type="application/javascript" data-persist="true">function n(){let t=this.parentElement;t.classList.toggle("is-collapsed");let e=t.getElementsByClassName("callout-content")[0];if(!e)return;let l=t.classList.contains("is-collapsed");e.style.gridTemplateRows=l?"0fr":"1fr"}function c(){let t=document.getElementsByClassName("callout is-collapsible");for(let e of t){let l=e.getElementsByClassName("callout-title")[0],s=e.getElementsByClassName("callout-content")[0];if(!l||!s)continue;l.addEventListener("click",n),window.addCleanup(()=>l.removeEventListener("click",n));let o=e.classList.contains("is-collapsed");s.style.gridTemplateRows=o?"0fr":"1fr"}}document.addEventListener("nav",c);
+</script><script type="module" data-persist="true">function E(a,e){if(!a)return;function t(o){o.target===this&&(o.preventDefault(),o.stopPropagation(),e())}function n(o){o.key.startsWith("Esc")&&(o.preventDefault(),e())}a?.addEventListener("click",t),window.addCleanup(()=>a?.removeEventListener("click",t)),document.addEventListener("keydown",n),window.addCleanup(()=>document.removeEventListener("keydown",n))}function f(a){for(;a.firstChild;)a.removeChild(a.firstChild)}var m=class{constructor(e,t){this.container=e;this.content=t;this.setupEventListeners(),this.setupNavigationControls(),this.resetTransform()}isDragging=!1;startPan={x:0,y:0};currentPan={x:0,y:0};scale=1;MIN_SCALE=.5;MAX_SCALE=3;cleanups=[];setupEventListeners(){let e=this.onMouseDown.bind(this),t=this.onMouseMove.bind(this),n=this.onMouseUp.bind(this),o=this.onTouchStart.bind(this),r=this.onTouchMove.bind(this),i=this.onTouchEnd.bind(this),s=this.resetTransform.bind(this);this.container.addEventListener("mousedown",e),document.addEventListener("mousemove",t),document.addEventListener("mouseup",n),this.container.addEventListener("touchstart",o,{passive:!1}),document.addEventListener("touchmove",r,{passive:!1}),document.addEventListener("touchend",i),window.addEventListener("resize",s),this.cleanups.push(()=>this.container.removeEventListener("mousedown",e),()=>document.removeEventListener("mousemove",t),()=>document.removeEventListener("mouseup",n),()=>this.container.removeEventListener("touchstart",o),()=>document.removeEventListener("touchmove",r),()=>document.removeEventListener("touchend",i),()=>window.removeEventListener("resize",s))}cleanup(){for(let e of this.cleanups)e()}setupNavigationControls(){let e=document.createElement("div");e.className="mermaid-controls";let t=this.createButton("+",()=>this.zoom(.1)),n=this.createButton("-",()=>this.zoom(-.1)),o=this.createButton("Reset",()=>this.resetTransform());e.appendChild(n),e.appendChild(o),e.appendChild(t),this.container.appendChild(e)}createButton(e,t){let n=document.createElement("button");return n.textContent=e,n.className="mermaid-control-button",n.addEventListener("click",t),window.addCleanup(()=>n.removeEventListener("click",t)),n}onMouseDown(e){e.button===0&&(this.isDragging=!0,this.startPan={x:e.clientX-this.currentPan.x,y:e.clientY-this.currentPan.y},this.container.style.cursor="grabbing")}onMouseMove(e){this.isDragging&&(e.preventDefault(),this.currentPan={x:e.clientX-this.startPan.x,y:e.clientY-this.startPan.y},this.updateTransform())}onMouseUp(){this.isDragging=!1,this.container.style.cursor="grab"}onTouchStart(e){if(e.touches.length!==1)return;this.isDragging=!0;let t=e.touches[0];this.startPan={x:t.clientX-this.currentPan.x,y:t.clientY-this.currentPan.y}}onTouchMove(e){if(!this.isDragging||e.touches.length!==1)return;e.preventDefault();let t=e.touches[0];this.currentPan={x:t.clientX-this.startPan.x,y:t.clientY-this.startPan.y},this.updateTransform()}onTouchEnd(){this.isDragging=!1}zoom(e){let t=Math.min(Math.max(this.scale+e,this.MIN_SCALE),this.MAX_SCALE),n=this.content.getBoundingClientRect(),o=n.width/2,r=n.height/2,i=t-this.scale;this.currentPan.x-=o*i,this.currentPan.y-=r*i,this.scale=t,this.updateTransform()}updateTransform(){this.content.style.transform=`translate(${this.currentPan.x}px, ${this.currentPan.y}px) scale(${this.scale})`}resetTransform(){let t=this.content.querySelector("svg").getBoundingClientRect(),n=t.width/this.scale,o=t.height/this.scale;this.scale=1,this.currentPan={x:(this.container.clientWidth-n)/2,y:(this.container.clientHeight-o)/2},this.updateTransform()}},T=["--secondary","--tertiary","--gray","--light","--lightgray","--highlight","--dark","--darkgray","--codeFont"],y;document.addEventListener("nav",async()=>{let e=document.querySelector(".center").querySelectorAll("code.mermaid");if(e.length===0)return;y||=await import("https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.4.0/mermaid.esm.min.mjs");let t=y.default,n=new WeakMap;for(let r of e)n.set(r,r.innerText);async function o(){for(let s of e){s.removeAttribute("data-processed");let c=n.get(s);c&&(s.innerHTML=c)}let r=T.reduce((s,c)=>(s[c]=window.getComputedStyle(document.documentElement).getPropertyValue(c),s),{}),i=document.documentElement.getAttribute("saved-theme")==="dark";t.initialize({startOnLoad:!1,securityLevel:"loose",theme:i?"dark":"base",themeVariables:{fontFamily:r["--codeFont"],primaryColor:r["--light"],primaryTextColor:r["--darkgray"],primaryBorderColor:r["--tertiary"],lineColor:r["--darkgray"],secondaryColor:r["--secondary"],tertiaryColor:r["--tertiary"],clusterBkg:r["--light"],edgeLabelBackground:r["--highlight"]}}),await t.run({nodes:e})}await o(),document.addEventListener("themechange",o),window.addCleanup(()=>document.removeEventListener("themechange",o));for(let r=0;r<e.length;r++){let v=function(){let g=l.querySelector("#mermaid-space"),h=l.querySelector(".mermaid-content");if(!h)return;f(h);let w=i.querySelector("svg").cloneNode(!0);h.appendChild(w),l.classList.add("active"),g.style.cursor="grab",u=new m(g,h)},M=function(){l.classList.remove("active"),u?.cleanup(),u=null},i=e[r],s=i.parentElement,c=s.querySelector(".clipboard-button"),d=s.querySelector(".expand-button"),p=window.getComputedStyle(c),L=c.offsetWidth+parseFloat(p.marginLeft||"0")+parseFloat(p.marginRight||"0");d.style.right=`calc(${L}px + 0.3rem)`,s.prepend(d);let l=s.querySelector("#mermaid-container");if(!l)return;let u=null;d.addEventListener("click",v),E(l,M),window.addCleanup(()=>{u?.cleanup(),d.removeEventListener("click",v)})}});
+</script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript" data-persist="true"></script><script type="application/javascript" data-persist="true">
+        const socket = new WebSocket('ws://localhost:3001')
+        // reload(true) ensures resources like images and scripts are fetched again in firefox
+        socket.addEventListener('message', () => document.location.reload(true))
+      </script><script src="./postscript.js" type="module" data-persist="true"></script></html>
