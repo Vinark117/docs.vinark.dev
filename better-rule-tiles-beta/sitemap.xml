@@ -6,7 +6,7 @@
     <lastmod>2026-01-22T10:12:43.548Z</lastmod>
   </url><url>
     <loc>https://docs.vinark.dev/Changelog</loc>
-    <lastmod>2026-01-22T12:12:27.895Z</lastmod>
+    <lastmod>2026-01-23T10:01:46.144Z</lastmod>
   </url><url>
     <loc>https://docs.vinark.dev/Frequently-Asked-Questions</loc>
     <lastmod>2026-01-22T10:40:13.535Z</lastmod>
@@ -18,7 +18,7 @@
     <lastmod>2026-01-22T11:42:09.405Z</lastmod>
   </url><url>
     <loc>https://docs.vinark.dev/Tileset-Editor</loc>
-    <lastmod>2026-01-22T12:06:50.378Z</lastmod>
+    <lastmod>2026-01-27T17:52:59.716Z</lastmod>
   </url><url>
     <loc>https://docs.vinark.dev/</loc>
     <lastmod>2026-01-22T10:18:24.106Z</lastmod>
@@ -51,12 +51,6 @@
     <lastmod>2023-11-03T15:22:18.000Z</lastmod>
   </url><url>
     <loc>https://docs.vinark.dev/Extras/Keyboard-shortcuts</loc>
-    <lastmod>2023-11-03T15:22:18.000Z</lastmod>
-  </url><url>
-    <loc>https://docs.vinark.dev/Features/Custom-properties</loc>
-    <lastmod>2023-11-03T18:25:38.000Z</lastmod>
-  </url><url>
-    <loc>https://docs.vinark.dev/Features/Preset-block</loc>
     <lastmod>2023-11-03T15:22:18.000Z</lastmod>
   </url><url>
     <loc>https://docs.vinark.dev/Getting-started/Better-rule-tile-container</loc>
@@ -106,4 +100,13 @@
   </url><url>
     <loc>https://docs.vinark.dev/Tools/Selection-tool</loc>
     <lastmod>2023-11-03T15:22:18.000Z</lastmod>
+  </url><url>
+    <loc>https://docs.vinark.dev/Features/Custom-properties</loc>
+    <lastmod>2023-11-03T18:25:38.000Z</lastmod>
+  </url><url>
+    <loc>https://docs.vinark.dev/Features/Preset-block</loc>
+    <lastmod>2023-11-03T15:22:18.000Z</lastmod>
+  </url><url>
+    <loc>https://docs.vinark.dev/Unity-Built-In/Sprite-Sheets</loc>
+    <lastmod>2026-01-27T16:36:35.820Z</lastmod>
   </url></urlset>
