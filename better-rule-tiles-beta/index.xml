@@ -6,65 +6,65 @@
       <description>Last 10 notes on Better Rule Tiles</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Import Window</title>
-    <link>https://docs.vinark.dev/Features/Import-window</link>
-    <guid>https://docs.vinark.dev/Features/Import-window</guid>
-    <description><![CDATA[ Work in progress . ]]></description>
-    <pubDate>Tue, 24 Feb 2026 14:40:51 GMT</pubDate>
+    <title>★ BRT Editor</title>
+    <link>https://docs.vinark.dev/Better-Rule-Tile-Editor</link>
+    <guid>https://docs.vinark.dev/Better-Rule-Tile-Editor</guid>
+    <description><![CDATA[ Getting started with the BRT Editor To use the BRT editor, you first need to create a better rule tile container. ]]></description>
+    <pubDate>Mon, 02 Mar 2026 19:12:06 GMT</pubDate>
   </item><item>
     <title>Editor tools</title>
     <link>https://docs.vinark.dev/BRT-Editor/Editor-Tools</link>
     <guid>https://docs.vinark.dev/BRT-Editor/Editor-Tools</guid>
     <description><![CDATA[ The editor tools are the main way of creating and editing rule tiles using the package. ]]></description>
-    <pubDate>Tue, 24 Feb 2026 14:39:29 GMT</pubDate>
+    <pubDate>Mon, 02 Mar 2026 19:06:54 GMT</pubDate>
   </item><item>
-    <title>★ BRT Editor</title>
-    <link>https://docs.vinark.dev/Better-Rule-Tile-Editor</link>
-    <guid>https://docs.vinark.dev/Better-Rule-Tile-Editor</guid>
-    <description><![CDATA[ Getting started with the BRT Editor To use the BRT editor, you first need to create a better rule tile container. ]]></description>
-    <pubDate>Tue, 24 Feb 2026 14:38:41 GMT</pubDate>
-  </item><item>
-    <title>Lock Selection</title>
-    <link>https://docs.vinark.dev/BRT-Editor/Lock-selection</link>
-    <guid>https://docs.vinark.dev/BRT-Editor/Lock-selection</guid>
-    <description><![CDATA[ Lock selection With the lock selection tool you can lock an area to prevent it from accidentally being edited or deleted. ]]></description>
-    <pubDate>Tue, 24 Feb 2026 14:08:37 GMT</pubDate>
-  </item><item>
-    <title>Changelog</title>
-    <link>https://docs.vinark.dev/Changelog</link>
-    <guid>https://docs.vinark.dev/Changelog</guid>
-    <description><![CDATA[ Version 1.5.0-b5 Fixed broken Changelog file from v1.5.0-b4 Version 1.5.0-b4 Updated tooltips and names in the Editor Settings window Added a new Tile size option in the Editor Settings window, which lets you change the rendering size of all tiles on the grid without affecting the sprites. ]]></description>
-    <pubDate>Tue, 24 Feb 2026 12:04:19 GMT</pubDate>
-  </item><item>
-    <title>Sprites</title>
-    <link>https://docs.vinark.dev/Terminology/Sprite</link>
-    <guid>https://docs.vinark.dev/Terminology/Sprite</guid>
-    <description><![CDATA[ Sprites Sprites are an essential part of the tool. Every sprite placed on the grid on top of a Tile will create a Tiling rule in the exported tile. ]]></description>
-    <pubDate>Mon, 23 Feb 2026 21:40:06 GMT</pubDate>
+    <title>Custom rule tile scripts</title>
+    <link>https://docs.vinark.dev/Features/Custom-rule-tile-scripts</link>
+    <guid>https://docs.vinark.dev/Features/Custom-rule-tile-scripts</guid>
+    <description><![CDATA[  Experimental feature This feature was added in version 1.5.0 as a BETA feature. ]]></description>
+    <pubDate>Mon, 02 Mar 2026 18:59:54 GMT</pubDate>
   </item><item>
     <title>Custom Properties</title>
     <link>https://docs.vinark.dev/Features/Custom-properties</link>
     <guid>https://docs.vinark.dev/Features/Custom-properties</guid>
     <description><![CDATA[ Custom properties Custom properties are a way to store information in your tiles, that you can later access at runtime using a script. ]]></description>
-    <pubDate>Mon, 23 Feb 2026 21:39:07 GMT</pubDate>
+    <pubDate>Mon, 02 Mar 2026 18:44:21 GMT</pubDate>
   </item><item>
-    <title>Tiling Rules</title>
-    <link>https://docs.vinark.dev/Terminology/Tiling-rule</link>
-    <guid>https://docs.vinark.dev/Terminology/Tiling-rule</guid>
-    <description><![CDATA[ Tiling rules Tiling rules are what makes it possible for the rule tiles to work. ]]></description>
-    <pubDate>Mon, 23 Feb 2026 20:22:16 GMT</pubDate>
+    <title>Preset Blocks</title>
+    <link>https://docs.vinark.dev/Features/Preset-block</link>
+    <guid>https://docs.vinark.dev/Features/Preset-block</guid>
+    <description><![CDATA[ Preset blocks Preset blocks provide a way to easily create multi-tile structures. ]]></description>
+    <pubDate>Mon, 02 Mar 2026 18:43:58 GMT</pubDate>
   </item><item>
-    <title>Cell Inspector</title>
-    <link>https://docs.vinark.dev/BRT-Editor/Grid-cell-inspector</link>
-    <guid>https://docs.vinark.dev/BRT-Editor/Grid-cell-inspector</guid>
-    <description><![CDATA[ Grid cell inspector The Grid cell inspector is used to change properties of a specific grid cell. ]]></description>
-    <pubDate>Sat, 31 Jan 2026 17:09:54 GMT</pubDate>
+    <title>Examples</title>
+    <link>https://docs.vinark.dev/Extras/Examples</link>
+    <guid>https://docs.vinark.dev/Extras/Examples</guid>
+    <description><![CDATA[ Examples The package comes with a few examples to help you better understand the tool. ]]></description>
+    <pubDate>Mon, 02 Mar 2026 18:42:20 GMT</pubDate>
   </item><item>
-    <title>Export Tiles</title>
-    <link>https://docs.vinark.dev/BRT-Editor/Export</link>
-    <guid>https://docs.vinark.dev/BRT-Editor/Export</guid>
-    <description><![CDATA[ Exporting Tiles After you’ve created your Tiles and set up your Tiling rules, you can head to the Export options to export your tiles into tile assets you can use in the game. ]]></description>
-    <pubDate>Sat, 31 Jan 2026 17:09:54 GMT</pubDate>
+    <title>Shortcuts</title>
+    <link>https://docs.vinark.dev/Extras/Keyboard-shortcuts</link>
+    <guid>https://docs.vinark.dev/Extras/Keyboard-shortcuts</guid>
+    <description><![CDATA[ Grid controls Left Mouse Click - Use the selected tool on the grid Right Mouse Click &amp; Drag - Move the grid around Middle Mouse Click &amp; Drag - Move the grid around Mouse Scroll - Zoom in the grid Keyboard shortcuts B - Select the brush tool D - Select the eraser tool E - Select the grid cell... ]]></description>
+    <pubDate>Mon, 02 Mar 2026 18:39:33 GMT</pubDate>
+  </item><item>
+    <title>Lock Selection</title>
+    <link>https://docs.vinark.dev/BRT-Editor/Lock-selection</link>
+    <guid>https://docs.vinark.dev/BRT-Editor/Lock-selection</guid>
+    <description><![CDATA[ Lock selection With the lock selection tool you can lock an area to prevent it from accidentally being edited or deleted. ]]></description>
+    <pubDate>Mon, 02 Mar 2026 18:30:03 GMT</pubDate>
+  </item><item>
+    <title>Replace Selection</title>
+    <link>https://docs.vinark.dev/BRT-Editor/Replace-selection</link>
+    <guid>https://docs.vinark.dev/BRT-Editor/Replace-selection</guid>
+    <description><![CDATA[ Replace selection Available on the toolbar, the replace selection tool is a useful tool when you want to create a new set of rules using rules you’ve already created, or if you just want to replace sprites or tiles. ]]></description>
+    <pubDate>Mon, 02 Mar 2026 18:25:11 GMT</pubDate>
+  </item><item>
+    <title>Sprite Overrides</title>
+    <link>https://docs.vinark.dev/BRT-Editor/Sprite-override-settings</link>
+    <guid>https://docs.vinark.dev/BRT-Editor/Sprite-override-settings</guid>
+    <description><![CDATA[ Sprite override settings The sprite override settings window is where you can modify the output of a sprite, where you can assign gameobjects, set collider types, animations and more. ]]></description>
+    <pubDate>Mon, 02 Mar 2026 17:49:55 GMT</pubDate>
   </item>
     </channel>
   </rss>
