@@ -1,4 +1,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url>
+    <loc>https://docs.vinark.dev/Beta-Changelog</loc>
+    <lastmod>2026-01-22T12:11:32.335Z</lastmod>
+  </url><url>
+    <loc>https://docs.vinark.dev/Better-Rule-Tile-Editor</loc>
+    <lastmod>2026-03-06T09:45:28.666Z</lastmod>
+  </url><url>
+    <loc>https://docs.vinark.dev/Changelog</loc>
+    <lastmod>2026-03-05T17:40:25.061Z</lastmod>
+  </url><url>
+    <loc>https://docs.vinark.dev/Frequently-Asked-Questions</loc>
+    <lastmod>2026-01-22T10:40:13.535Z</lastmod>
+  </url><url>
+    <loc>https://docs.vinark.dev/Games-using-Better-Rule-Tiles</loc>
+    <lastmod>2026-01-22T10:04:15.139Z</lastmod>
+  </url><url>
+    <loc>https://docs.vinark.dev/Tileset-Editor</loc>
+    <lastmod>2026-01-31T15:36:01.354Z</lastmod>
+  </url><url>
+    <loc>https://docs.vinark.dev/</loc>
+    <lastmod>2026-01-22T10:18:24.106Z</lastmod>
+  </url><url>
     <loc>https://docs.vinark.dev/BRT-Editor/Editor-Tools</loc>
     <lastmod>2026-03-02T19:06:54.282Z</lastmod>
   </url><url>
@@ -9,19 +30,10 @@
     <lastmod>2026-03-02T18:25:11.743Z</lastmod>
   </url><url>
     <loc>https://docs.vinark.dev/BRT-Editor/Sprite-override-settings</loc>
-    <lastmod>2026-03-02T17:49:55.819Z</lastmod>
+    <lastmod>2026-03-06T14:40:52.729Z</lastmod>
   </url><url>
     <loc>https://docs.vinark.dev/BRT-Editor/Tile-inspector</loc>
     <lastmod>2026-03-02T17:43:41.139Z</lastmod>
-  </url><url>
-    <loc>https://docs.vinark.dev/Beta-Changelog</loc>
-    <lastmod>2026-01-22T12:11:32.335Z</lastmod>
-  </url><url>
-    <loc>https://docs.vinark.dev/Better-Rule-Tile-Editor</loc>
-    <lastmod>2026-03-02T19:12:06.956Z</lastmod>
-  </url><url>
-    <loc>https://docs.vinark.dev/Changelog</loc>
-    <lastmod>2026-02-27T13:20:44.548Z</lastmod>
   </url><url>
     <loc>https://docs.vinark.dev/Extras/Examples</loc>
     <lastmod>2026-03-02T18:42:20.312Z</lastmod>
@@ -29,39 +41,21 @@
     <loc>https://docs.vinark.dev/Extras/Keyboard-shortcuts</loc>
     <lastmod>2026-03-02T18:39:33.615Z</lastmod>
   </url><url>
+    <loc>https://docs.vinark.dev/Terminology/Better-rule-tile-container</loc>
+    <lastmod>2026-01-31T15:48:51.948Z</lastmod>
+  </url><url>
+    <loc>https://docs.vinark.dev/Terminology/Tiling-rule</loc>
+    <lastmod>2026-03-06T11:08:31.058Z</lastmod>
+  </url><url>
     <loc>https://docs.vinark.dev/Features/Custom-properties</loc>
     <lastmod>2026-03-02T18:44:21.191Z</lastmod>
   </url><url>
     <loc>https://docs.vinark.dev/Features/Custom-rule-tile-scripts</loc>
-    <lastmod>2026-03-02T18:59:54.530Z</lastmod>
+    <lastmod>2026-03-06T16:45:11.639Z</lastmod>
   </url><url>
     <loc>https://docs.vinark.dev/Features/Import-window</loc>
-    <lastmod>2026-02-24T14:40:51.955Z</lastmod>
+    <lastmod>2026-03-06T14:42:20.172Z</lastmod>
   </url><url>
     <loc>https://docs.vinark.dev/Features/Preset-block</loc>
     <lastmod>2026-03-02T18:43:58.636Z</lastmod>
-  </url><url>
-    <loc>https://docs.vinark.dev/Frequently-Asked-Questions</loc>
-    <lastmod>2026-01-22T10:40:13.535Z</lastmod>
-  </url><url>
-    <loc>https://docs.vinark.dev/Games-using-Better-Rule-Tiles</loc>
-    <lastmod>2026-01-22T10:04:15.139Z</lastmod>
-  </url><url>
-    <loc>https://docs.vinark.dev/Terminology/Better-rule-tile-container</loc>
-    <lastmod>2026-01-31T15:48:51.948Z</lastmod>
-  </url><url>
-    <loc>https://docs.vinark.dev/Terminology/Sprite-Sheets</loc>
-    <lastmod>2026-01-27T16:36:35.820Z</lastmod>
-  </url><url>
-    <loc>https://docs.vinark.dev/Terminology/Sprite</loc>
-    <lastmod>2026-02-23T21:40:06.806Z</lastmod>
-  </url><url>
-    <loc>https://docs.vinark.dev/Terminology/Tiling-rule</loc>
-    <lastmod>2026-02-23T20:22:16.919Z</lastmod>
-  </url><url>
-    <loc>https://docs.vinark.dev/Tileset-Editor</loc>
-    <lastmod>2026-01-31T15:36:01.354Z</lastmod>
-  </url><url>
-    <loc>https://docs.vinark.dev/</loc>
-    <lastmod>2026-01-22T10:18:24.106Z</lastmod>
   </url></urlset>

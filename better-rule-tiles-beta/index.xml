@@ -6,23 +6,47 @@
       <description>Last 10 notes on Better Rule Tiles</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Custom rule tile scripts</title>
+    <link>https://docs.vinark.dev/Features/Custom-rule-tile-scripts</link>
+    <guid>https://docs.vinark.dev/Features/Custom-rule-tile-scripts</guid>
+    <description><![CDATA[  Experimental feature This feature was added in version 1.5.0 as a BETA feature. ]]></description>
+    <pubDate>Fri, 06 Mar 2026 16:45:11 GMT</pubDate>
+  </item><item>
+    <title>Import Window</title>
+    <link>https://docs.vinark.dev/Features/Import-window</link>
+    <guid>https://docs.vinark.dev/Features/Import-window</guid>
+    <description><![CDATA[ Import Window When importing a sprite sheet, a texture sliced up to multiple sprites to the |BRT Editor or the tileset editor, this window will show up. ]]></description>
+    <pubDate>Fri, 06 Mar 2026 14:42:20 GMT</pubDate>
+  </item><item>
+    <title>Sprite Overrides</title>
+    <link>https://docs.vinark.dev/BRT-Editor/Sprite-override-settings</link>
+    <guid>https://docs.vinark.dev/BRT-Editor/Sprite-override-settings</guid>
+    <description><![CDATA[ Sprite override settings The sprite override settings window is where you can modify the output of a sprite, where you can assign gameobjects, set collider types, animations and more. ]]></description>
+    <pubDate>Fri, 06 Mar 2026 14:40:52 GMT</pubDate>
+  </item><item>
+    <title>Tiling Rules</title>
+    <link>https://docs.vinark.dev/Terminology/Tiling-rule</link>
+    <guid>https://docs.vinark.dev/Terminology/Tiling-rule</guid>
+    <description><![CDATA[ Tiling rules Tiling rules are what makes it possible for the rule tiles to work. ]]></description>
+    <pubDate>Fri, 06 Mar 2026 11:08:31 GMT</pubDate>
+  </item><item>
     <title>★ BRT Editor</title>
     <link>https://docs.vinark.dev/Better-Rule-Tile-Editor</link>
     <guid>https://docs.vinark.dev/Better-Rule-Tile-Editor</guid>
     <description><![CDATA[ Getting started with the BRT Editor To use the BRT editor, you first need to create a better rule tile container. ]]></description>
-    <pubDate>Mon, 02 Mar 2026 19:12:06 GMT</pubDate>
+    <pubDate>Fri, 06 Mar 2026 09:45:28 GMT</pubDate>
+  </item><item>
+    <title>Changelog</title>
+    <link>https://docs.vinark.dev/Changelog</link>
+    <guid>https://docs.vinark.dev/Changelog</guid>
+    <description><![CDATA[ Version 1.5.0-b8 Version 1.5.0-b7 Fixed an error where a missing sprite reference caused the sprite drawer to break the editor Import window now works when not using universal sprite settings Padding on sprite sheets is now correctly handled in the import window You can now drag and drop multiple te... ]]></description>
+    <pubDate>Thu, 05 Mar 2026 17:40:25 GMT</pubDate>
   </item><item>
     <title>Editor tools</title>
     <link>https://docs.vinark.dev/BRT-Editor/Editor-Tools</link>
     <guid>https://docs.vinark.dev/BRT-Editor/Editor-Tools</guid>
     <description><![CDATA[ The editor tools are the main way of creating and editing rule tiles using the package. ]]></description>
     <pubDate>Mon, 02 Mar 2026 19:06:54 GMT</pubDate>
-  </item><item>
-    <title>Custom rule tile scripts</title>
-    <link>https://docs.vinark.dev/Features/Custom-rule-tile-scripts</link>
-    <guid>https://docs.vinark.dev/Features/Custom-rule-tile-scripts</guid>
-    <description><![CDATA[  Experimental feature This feature was added in version 1.5.0 as a BETA feature. ]]></description>
-    <pubDate>Mon, 02 Mar 2026 18:59:54 GMT</pubDate>
   </item><item>
     <title>Custom Properties</title>
     <link>https://docs.vinark.dev/Features/Custom-properties</link>
@@ -41,30 +65,6 @@
     <guid>https://docs.vinark.dev/Extras/Examples</guid>
     <description><![CDATA[ Examples The package comes with a few examples to help you better understand the tool. ]]></description>
     <pubDate>Mon, 02 Mar 2026 18:42:20 GMT</pubDate>
-  </item><item>
-    <title>Shortcuts</title>
-    <link>https://docs.vinark.dev/Extras/Keyboard-shortcuts</link>
-    <guid>https://docs.vinark.dev/Extras/Keyboard-shortcuts</guid>
-    <description><![CDATA[ Grid controls Left Mouse Click - Use the selected tool on the grid Right Mouse Click &amp; Drag - Move the grid around Middle Mouse Click &amp; Drag - Move the grid around Mouse Scroll - Zoom in the grid Keyboard shortcuts B - Select the brush tool D - Select the eraser tool E - Select the grid cell... ]]></description>
-    <pubDate>Mon, 02 Mar 2026 18:39:33 GMT</pubDate>
-  </item><item>
-    <title>Lock Selection</title>
-    <link>https://docs.vinark.dev/BRT-Editor/Lock-selection</link>
-    <guid>https://docs.vinark.dev/BRT-Editor/Lock-selection</guid>
-    <description><![CDATA[ Lock selection With the lock selection tool you can lock an area to prevent it from accidentally being edited or deleted. ]]></description>
-    <pubDate>Mon, 02 Mar 2026 18:30:03 GMT</pubDate>
-  </item><item>
-    <title>Replace Selection</title>
-    <link>https://docs.vinark.dev/BRT-Editor/Replace-selection</link>
-    <guid>https://docs.vinark.dev/BRT-Editor/Replace-selection</guid>
-    <description><![CDATA[ Replace selection Available on the toolbar, the replace selection tool is a useful tool when you want to create a new set of rules using rules you’ve already created, or if you just want to replace sprites or tiles. ]]></description>
-    <pubDate>Mon, 02 Mar 2026 18:25:11 GMT</pubDate>
-  </item><item>
-    <title>Sprite Overrides</title>
-    <link>https://docs.vinark.dev/BRT-Editor/Sprite-override-settings</link>
-    <guid>https://docs.vinark.dev/BRT-Editor/Sprite-override-settings</guid>
-    <description><![CDATA[ Sprite override settings The sprite override settings window is where you can modify the output of a sprite, where you can assign gameobjects, set collider types, animations and more. ]]></description>
-    <pubDate>Mon, 02 Mar 2026 17:49:55 GMT</pubDate>
   </item>
     </channel>
   </rss>
