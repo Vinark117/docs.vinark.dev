@@ -9,20 +9,50 @@
     <title>Changelog</title>
     <link>https://docs.vinark.dev/Changelog</link>
     <guid>https://docs.vinark.dev/Changelog</guid>
-    <description><![CDATA[ Version 1.5.0-b8 User made tiles derived from BetterRuleTileBase and BetterHexagonalRuleTileBase will now show up in the BRT Editor and can be used without modifying the tool Brush preview will now show the correct anchored position of the sprites The selected sprite preview in the tile drawer is no... ]]></description>
-    <pubDate>Tue, 17 Mar 2026 18:01:44 GMT</pubDate>
+    <description><![CDATA[ Version 1.5.0 An entire new way of creating tiles was added to the tool, the Tileset Editor: The TileSet Editor is a an entirely new editor window, created to speed up the creation even more of simpler rule tiles. ]]></description>
+    <pubDate>Sun, 21 Jun 2026 17:12:21 GMT</pubDate>
   </item><item>
-    <title>Custom rule tile scripts</title>
-    <link>https://docs.vinark.dev/Features/Custom-rule-tile-scripts</link>
-    <guid>https://docs.vinark.dev/Features/Custom-rule-tile-scripts</guid>
-    <description><![CDATA[ How rule tiles work in BRT Since version 1.5.0, the data that determines the behavior and look of the default rules are contained in a virtual function inside the Base Rule Tile classes: Runtime/RuleTiles/BetterRuleTileBase.cs - for square and isometric tiles Runtime/RuleTiles/BetterHexagonalRuleTil... ]]></description>
-    <pubDate>Tue, 17 Mar 2026 08:44:42 GMT</pubDate>
+    <title>Changelog (Beta)</title>
+    <link>https://docs.vinark.dev/Beta-Changelog</link>
+    <guid>https://docs.vinark.dev/Beta-Changelog</guid>
+    <description><![CDATA[ Version -b This page shows more detailed changelogs of past beta releases, if you’re looking for the release changelogs you can head over here. ]]></description>
+    <pubDate>Sun, 21 Jun 2026 17:11:36 GMT</pubDate>
+  </item><item>
+    <title>Examples</title>
+    <link>https://docs.vinark.dev/Extras/Examples</link>
+    <guid>https://docs.vinark.dev/Extras/Examples</guid>
+    <description><![CDATA[ Examples The package comes with a few examples to help you better understand the tool. ]]></description>
+    <pubDate>Sun, 21 Jun 2026 12:14:05 GMT</pubDate>
+  </item><item>
+    <title>Preset Blocks</title>
+    <link>https://docs.vinark.dev/Features/Preset-block</link>
+    <guid>https://docs.vinark.dev/Features/Preset-block</guid>
+    <description><![CDATA[ Preset blocks Preset blocks provide a way to easily create multi-tile structures. ]]></description>
+    <pubDate>Sun, 21 Jun 2026 12:08:20 GMT</pubDate>
+  </item><item>
+    <title>Tiling Rules</title>
+    <link>https://docs.vinark.dev/Terminology/Tiling-rule</link>
+    <guid>https://docs.vinark.dev/Terminology/Tiling-rule</guid>
+    <description><![CDATA[ Tiling rules Tiling rules are what makes it possible for the rule tiles to work. ]]></description>
+    <pubDate>Sun, 21 Jun 2026 12:05:05 GMT</pubDate>
+  </item><item>
+    <title>FAQ</title>
+    <link>https://docs.vinark.dev/Frequently-Asked-Questions</link>
+    <guid>https://docs.vinark.dev/Frequently-Asked-Questions</guid>
+    <description><![CDATA[ Frequently Asked Questions My sprites get displayed as missing textures. ]]></description>
+    <pubDate>Sun, 21 Jun 2026 12:00:06 GMT</pubDate>
   </item><item>
     <title>★ BRT Editor</title>
     <link>https://docs.vinark.dev/Better-Rule-Tile-Editor</link>
     <guid>https://docs.vinark.dev/Better-Rule-Tile-Editor</guid>
     <description><![CDATA[ Getting started with the BRT Editor To use the BRT editor, you first need to create a better rule tile container. ]]></description>
-    <pubDate>Tue, 17 Mar 2026 08:42:05 GMT</pubDate>
+    <pubDate>Sun, 21 Jun 2026 11:56:05 GMT</pubDate>
+  </item><item>
+    <title>Custom rule tile scripts</title>
+    <link>https://docs.vinark.dev/Features/Custom-rule-tile-scripts</link>
+    <guid>https://docs.vinark.dev/Features/Custom-rule-tile-scripts</guid>
+    <description><![CDATA[ How rule tiles work in BRT Since version 1.5.0, the data that determines the behavior and look of the default rules are contained in a virtual function inside the Base Rule Tile classes: Runtime/RuleTiles/BetterRuleTileBase.cs - for square and isometric tiles Runtime/RuleTiles/BetterHexagonalRuleTil... ]]></description>
+    <pubDate>Sun, 21 Jun 2026 11:54:10 GMT</pubDate>
   </item><item>
     <title>Import Window</title>
     <link>https://docs.vinark.dev/Features/Import-window</link>
@@ -35,36 +65,6 @@
     <guid>https://docs.vinark.dev/BRT-Editor/Sprite-override-settings</guid>
     <description><![CDATA[ Sprite override settings The sprite override settings window is where you can modify the output of a sprite, where you can assign gameobjects, set collider types, animations and more. ]]></description>
     <pubDate>Fri, 06 Mar 2026 14:40:52 GMT</pubDate>
-  </item><item>
-    <title>Tiling Rules</title>
-    <link>https://docs.vinark.dev/Terminology/Tiling-rule</link>
-    <guid>https://docs.vinark.dev/Terminology/Tiling-rule</guid>
-    <description><![CDATA[ Tiling rules Tiling rules are what makes it possible for the rule tiles to work. ]]></description>
-    <pubDate>Fri, 06 Mar 2026 11:08:31 GMT</pubDate>
-  </item><item>
-    <title>Editor tools</title>
-    <link>https://docs.vinark.dev/BRT-Editor/Editor-Tools</link>
-    <guid>https://docs.vinark.dev/BRT-Editor/Editor-Tools</guid>
-    <description><![CDATA[ The editor tools are the main way of creating and editing rule tiles using the package. ]]></description>
-    <pubDate>Mon, 02 Mar 2026 19:06:54 GMT</pubDate>
-  </item><item>
-    <title>Custom Properties</title>
-    <link>https://docs.vinark.dev/Features/Custom-properties</link>
-    <guid>https://docs.vinark.dev/Features/Custom-properties</guid>
-    <description><![CDATA[ Custom properties Custom properties are a way to store information in your tiles, that you can later access at runtime using a script. ]]></description>
-    <pubDate>Mon, 02 Mar 2026 18:44:21 GMT</pubDate>
-  </item><item>
-    <title>Preset Blocks</title>
-    <link>https://docs.vinark.dev/Features/Preset-block</link>
-    <guid>https://docs.vinark.dev/Features/Preset-block</guid>
-    <description><![CDATA[ Preset blocks Preset blocks provide a way to easily create multi-tile structures. ]]></description>
-    <pubDate>Mon, 02 Mar 2026 18:43:58 GMT</pubDate>
-  </item><item>
-    <title>Examples</title>
-    <link>https://docs.vinark.dev/Extras/Examples</link>
-    <guid>https://docs.vinark.dev/Extras/Examples</guid>
-    <description><![CDATA[ Examples The package comes with a few examples to help you better understand the tool. ]]></description>
-    <pubDate>Mon, 02 Mar 2026 18:42:20 GMT</pubDate>
   </item>
     </channel>
   </rss>

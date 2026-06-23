@@ -1,100 +1,61 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url>
+    <loc>https://docs.vinark.dev/BRT-Editor/Editor-Tools</loc>
+    <lastmod>2026-03-02T19:06:54.282Z</lastmod>
+  </url><url>
+    <loc>https://docs.vinark.dev/BRT-Editor/Lock-selection</loc>
+    <lastmod>2026-03-02T18:30:03.454Z</lastmod>
+  </url><url>
+    <loc>https://docs.vinark.dev/BRT-Editor/Replace-selection</loc>
+    <lastmod>2026-03-02T18:25:11.743Z</lastmod>
+  </url><url>
+    <loc>https://docs.vinark.dev/BRT-Editor/Sprite-override-settings</loc>
+    <lastmod>2026-03-06T14:40:52.729Z</lastmod>
+  </url><url>
+    <loc>https://docs.vinark.dev/BRT-Editor/Tile-inspector</loc>
+    <lastmod>2026-03-02T17:43:41.139Z</lastmod>
+  </url><url>
+    <loc>https://docs.vinark.dev/Beta-Changelog</loc>
+    <lastmod>2026-06-21T17:11:36.707Z</lastmod>
+  </url><url>
+    <loc>https://docs.vinark.dev/Better-Rule-Tile-Editor</loc>
+    <lastmod>2026-06-21T11:56:05.166Z</lastmod>
+  </url><url>
+    <loc>https://docs.vinark.dev/Changelog</loc>
+    <lastmod>2026-06-21T17:12:21.456Z</lastmod>
+  </url><url>
     <loc>https://docs.vinark.dev/Extras/Examples</loc>
-    <lastmod>2023-11-03T15:22:17.645Z</lastmod>
+    <lastmod>2026-06-21T12:14:05.287Z</lastmod>
   </url><url>
     <loc>https://docs.vinark.dev/Extras/Keyboard-shortcuts</loc>
-    <lastmod>2023-11-03T15:22:17.645Z</lastmod>
+    <lastmod>2026-03-02T18:39:33.615Z</lastmod>
   </url><url>
     <loc>https://docs.vinark.dev/Features/Custom-properties</loc>
-    <lastmod>2023-11-03T18:25:37.406Z</lastmod>
+    <lastmod>2026-03-02T18:44:21.191Z</lastmod>
+  </url><url>
+    <loc>https://docs.vinark.dev/Features/Custom-rule-tile-scripts</loc>
+    <lastmod>2026-06-21T11:54:10.484Z</lastmod>
+  </url><url>
+    <loc>https://docs.vinark.dev/Features/Import-window</loc>
+    <lastmod>2026-03-17T08:33:05.565Z</lastmod>
   </url><url>
     <loc>https://docs.vinark.dev/Features/Preset-block</loc>
-    <lastmod>2023-11-03T15:22:17.646Z</lastmod>
+    <lastmod>2026-06-21T12:08:20.860Z</lastmod>
   </url><url>
-    <loc>https://docs.vinark.dev/Getting-started/Better-rule-tile-container</loc>
-    <lastmod>2023-11-03T15:22:17.647Z</lastmod>
+    <loc>https://docs.vinark.dev/Frequently-Asked-Questions</loc>
+    <lastmod>2026-06-21T12:00:06.076Z</lastmod>
   </url><url>
-    <loc>https://docs.vinark.dev/Getting-started/Editor-window</loc>
-    <lastmod>2023-11-03T17:26:16.431Z</lastmod>
+    <loc>https://docs.vinark.dev/Games-using-Better-Rule-Tiles</loc>
+    <lastmod>2026-01-22T10:04:15.139Z</lastmod>
   </url><url>
-    <loc>https://docs.vinark.dev/Getting-started/Export</loc>
-    <lastmod>2023-11-03T17:21:51.622Z</lastmod>
+    <loc>https://docs.vinark.dev/Terminology/Better-rule-tile-container</loc>
+    <lastmod>2026-01-31T15:48:51.948Z</lastmod>
   </url><url>
-    <loc>https://docs.vinark.dev/Getting-started/Sprite</loc>
-    <lastmod>2023-11-03T15:22:17.649Z</lastmod>
+    <loc>https://docs.vinark.dev/Terminology/Tiling-rule</loc>
+    <lastmod>2026-06-21T12:05:05.656Z</lastmod>
   </url><url>
-    <loc>https://docs.vinark.dev/Getting-started/Tile</loc>
-    <lastmod>2023-11-03T15:22:17.649Z</lastmod>
-  </url><url>
-    <loc>https://docs.vinark.dev/Getting-started/Tiling-rule</loc>
-    <lastmod>2023-11-03T18:09:25.373Z</lastmod>
-  </url><url>
-    <loc>https://docs.vinark.dev/Home/About-the-tool</loc>
-    <lastmod>2023-11-04T13:55:44.587Z</lastmod>
-  </url><url>
-    <loc>https://docs.vinark.dev/Home/Frequently-Asked-Questions</loc>
-    <lastmod>2023-11-03T15:22:17.651Z</lastmod>
-  </url><url>
-    <loc>https://docs.vinark.dev/Scripting/BetterHexagonalRuleTile.cs</loc>
-    <lastmod>2023-11-07T13:58:55.761Z</lastmod>
-  </url><url>
-    <loc>https://docs.vinark.dev/Scripting/BetterRuleTile.cs</loc>
-    <lastmod>2023-11-07T13:57:51.001Z</lastmod>
-  </url><url>
-    <loc>https://docs.vinark.dev/The-editor/Editor-settings</loc>
-    <lastmod>2023-11-03T15:22:17.652Z</lastmod>
-  </url><url>
-    <loc>https://docs.vinark.dev/The-editor/Export-options</loc>
-    <lastmod>2024-06-02T13:04:20.296Z</lastmod>
-  </url><url>
-    <loc>https://docs.vinark.dev/The-editor/Grid</loc>
-    <lastmod>2023-11-03T15:22:17.654Z</lastmod>
-  </url><url>
-    <loc>https://docs.vinark.dev/The-editor/Sprite-drawer</loc>
-    <lastmod>2023-11-03T15:22:17.654Z</lastmod>
-  </url><url>
-    <loc>https://docs.vinark.dev/The-editor/Sprite-override-settings</loc>
-    <lastmod>2023-11-03T15:22:17.655Z</lastmod>
-  </url><url>
-    <loc>https://docs.vinark.dev/The-editor/Tile-drawer</loc>
-    <lastmod>2023-11-03T15:22:17.655Z</lastmod>
-  </url><url>
-    <loc>https://docs.vinark.dev/The-editor/Tile-inspector</loc>
-    <lastmod>2023-11-03T18:10:31.947Z</lastmod>
-  </url><url>
-    <loc>https://docs.vinark.dev/The-editor/Toolbar</loc>
-    <lastmod>2023-11-03T15:22:17.658Z</lastmod>
-  </url><url>
-    <loc>https://docs.vinark.dev/Tools/Brush</loc>
-    <lastmod>2023-11-03T15:22:17.659Z</lastmod>
-  </url><url>
-    <loc>https://docs.vinark.dev/Tools/Eraser</loc>
-    <lastmod>2023-11-03T15:22:17.659Z</lastmod>
-  </url><url>
-    <loc>https://docs.vinark.dev/Tools/Grid-cell-inspector</loc>
-    <lastmod>2023-11-03T18:10:57.030Z</lastmod>
-  </url><url>
-    <loc>https://docs.vinark.dev/Tools/Lock-selection</loc>
-    <lastmod>2023-11-03T15:22:17.660Z</lastmod>
-  </url><url>
-    <loc>https://docs.vinark.dev/Tools/Move-tool</loc>
-    <lastmod>2023-11-03T15:22:17.661Z</lastmod>
-  </url><url>
-    <loc>https://docs.vinark.dev/Tools/Picker-tool</loc>
-    <lastmod>2023-11-03T15:22:17.661Z</lastmod>
-  </url><url>
-    <loc>https://docs.vinark.dev/Tools/Replace-selection</loc>
-    <lastmod>2023-11-03T15:22:17.662Z</lastmod>
-  </url><url>
-    <loc>https://docs.vinark.dev/Tools/Selection-tool</loc>
-    <lastmod>2023-11-03T15:22:17.662Z</lastmod>
-  </url><url>
-    <loc>https://docs.vinark.dev/Updates/Changelog</loc>
-    <lastmod>2024-06-03T17:23:58.304Z</lastmod>
-  </url><url>
-    <loc>https://docs.vinark.dev/Updates/Development</loc>
-    <lastmod>2023-11-14T17:19:15.876Z</lastmod>
+    <loc>https://docs.vinark.dev/Tileset-Editor</loc>
+    <lastmod>2026-01-31T15:36:01.354Z</lastmod>
   </url><url>
     <loc>https://docs.vinark.dev/</loc>
-    <lastmod>2023-11-04T13:53:42.881Z</lastmod>
+    <lastmod>2026-01-22T10:18:24.106Z</lastmod>
   </url></urlset>
